@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo_img {
+  width: 25%;
+  height: 85%;
+  margin: 1% 0 0 2%;
+}
+.header_login {
+  width: 99.69vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: rgba(139, 195, 74, 0.2);
+  backdrop-filter: blur(16px)
+  -webkit-backgrop-filter: blur(16px);
+  border: solid black 2px;
+}
+
+.mobile_icones {
+  display: none;
+}
