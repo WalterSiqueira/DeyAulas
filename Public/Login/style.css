@@ -93,14 +93,107 @@
   }
 
 }
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .div_logo {
+    width: 30%;
+  }
+  .logo_img {
+    width: 100%;
+    height: 85%;
+    padding: 5% 0 0 2%;
+  }
+  .header_login {
+    width: 99.4vw;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
 
+  .mobile_icones {
+    display: block;
+  }
+  .desktop_icones {
+    display: none;
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Img/fundo_ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .div_form {
+    width: 45vw;
+    height: 85vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 7%;
+    margin: 10% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 3% 0 0 0;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 3% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    background-color: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  button {
+    width: 40%;
+    height: 9%;
+    margin: 0 0 0 30%;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.2rem;
+  }
+
+}
 @media screen and (min-width: 800px) and (max-width: 1024px) {
   .logo_img {
-    width: 25%;
+    width: 35%;
     height: 85%;
     margin: 1% 0 0 2%;
   }
-  .header_cadastro {
+  .header_login {
     width: 99.69vw;
     display: flex;
     flex-flow: row wrap;
@@ -113,16 +206,85 @@
 
   .mobile_icones {
     display: none;
+  }
+  .desktop_icones {
+    display: block;
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Img/fundo_ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  .div_form {
+    width: 55vw;
+    height: 95vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5%;
+    margin: 10% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 5% 0 0 0;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    background-color: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 0 0 5%;
+  }
+  button {
+    width: 40%;
+    height: 9%;
+    margin: 0 0 0 30%;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .logo_img {
-    width: 25%;
+    width: 35%;
     height: 85%;
     margin: 1% 0 0 2%;
   }
-  .header_cadastro {
-    width: 99.69vw;
+  .header_login {
+    width: 98.7vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -134,5 +296,166 @@
 
   .mobile_icones {
     display: none;
+  }
+  .desktop_icones {
+    display: block;
+  }
+  main {
+    width: 98.8vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*padding: 5% 0 0 5%;*/
+    background-image: url("../Img/fundo_ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .div_form {
+    width: 35vw;
+    height: 85vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 7%;
+    margin: 10% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 5% 0 0 0;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    background-color: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 0 0 5%;
+  }
+  button {
+    width: 40%;
+    height: 9%;
+    margin: 10% 0 0 30%;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.8rem;
+  } 
+}
+@media screen and (min-width:1441px) {
+  .logo_img {
+    width: 35%;
+    height: 85%;
+    margin: 1% 0 0 2%;
+  }
+  .header_login {
+    width: 98.7vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px)
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+
+  .mobile_icones {
+    display: none;
+  }
+  .desktop_icones {
+    display: block;
+  }
+  main {
+    width: 98.8vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*padding: 5% 0 0 5%;*/
+    background-image: url("../Img/fundo_ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .div_form {
+    width: 35vw;
+    height: 95vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 7%;
+    margin: 10% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 5% 0 0 0;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    background-color: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 0 0 5%;
+  }
+  button {
+    width: 40%;
+    height: 9%;
+    margin: 5% 0 0 30%;
+    background-color: rgba(139, 195, 74, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.8rem;
   }
 }
