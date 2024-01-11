@@ -13,15 +13,16 @@
       </div>
       <nav>
         <div class="mobile_icones">
-          <img class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
+          <img onclick='abrir_menu()' class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
         </div>
-        <div class="desktop_icones">
+        <div id="menu" class="desktop_icones">
           <a class="link_catalogo" href="../Cadastro"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
           <a class="link_cadastro" href="../Cadastro"><img  class="cadastro_img" src="../../Public/Img/icone_cadastro.png"></a>
+          <img onclick='fechar_menu()' id="fechar" class="fechar_img" src="../../Public/Img/icone_fechar.png"/>
         </div>
     </header>
     <main>
-      <div class="div_form">
+      <div class="div_form" id="div_form">
         <h2>Login</h2>
         <form action="#" method="post">
           <label>E-mail:</label>
@@ -34,4 +35,5 @@
       </div>
     </main> 
   </body>
+<script src="../../Public/Login/index.js"></script>
 </html>
