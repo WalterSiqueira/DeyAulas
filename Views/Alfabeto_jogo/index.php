@@ -4,7 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../../Public/Alfabeto_jogo/style.css" rel="stylesheet">
     </head>
     <body>
         <main>
@@ -35,6 +35,33 @@
                 <img class="letra-x"  src="../../Public/Img/img_jogo_alfabeto/letra-x.png"/>
                 <img class="letra-y"  src="../../Public/Img/img_jogo_alfabeto/letra-y.png"/>
                 <img class="letra-z"  src="../../Public/Img/img_jogo_alfabeto/letra-z.png"/>
+                <!--objetos e animais-->
+                <img class="abelha ilust"  src="../../Public/Img/img_jogo_alfabeto/abelha.png"/>
+                <img class="bola ilust"  src="../../Public/Img/img_jogo_alfabeto/bola.png"/>
+                <img class="cachorro ilust"  src="../../Public/Img/img_jogo_alfabeto/cachorro.png"/>
+                <img class="dado ilust"  src="../../Public/Img/img_jogo_alfabeto/dado.png"/>
+                <img class="elefante ilust"  src="../../Public/Img/img_jogo_alfabeto/elefante.png"/>
+                <img class="faca ilust"  src="../../Public/Img/img_jogo_alfabeto/faca.png"/>
+                <img class="gato ilust"  src="../../Public/Img/img_jogo_alfabeto/gato.png"/>
+                <img class="hipopotamo ilust"  src="../../Public/Img/img_jogo_alfabeto/hipopótamo.png"/>
+                <img class="indio ilust"  src="../../Public/Img/img_jogo_alfabeto/indio.png"/>
+                <img class="jabuti ilust"  src="../../Public/Img/img_jogo_alfabeto/jabuti.png"/>
+                <img class="koala ilust"  src="../../Public/Img/img_jogo_alfabeto/koala.png"/>
+                <img class="limao ilust"  src="../../Public/Img/img_jogo_alfabeto/limão.png"/>
+                <img class="maca ilust"  src="../../Public/Img/img_jogo_alfabeto/maçã.png"/>
+                <img class="navio ilust"  src="../../Public/Img/img_jogo_alfabeto/navio.png"/>
+                <img class="onibus ilust"  src="../../Public/Img/img_jogo_alfabeto/onibus.png"/>
+                <img class="pato ilust"  src="../../Public/Img/img_jogo_alfabeto/pato.png"/>
+                <img class="queijo ilust"  src="../../Public/Img/img_jogo_alfabeto/queijo.png"/>
+                <img class="rato ilust"  src="../../Public/Img/img_jogo_alfabeto/rato.png"/>
+                <img class="sapo ilust"  src="../../Public/Img/img_jogo_alfabeto/sapo.png"/>
+                <img class="trem ilust"  src="../../Public/Img/img_jogo_alfabeto/trem.png"/>
+                <img class="uva ilust"  src="../../Public/Img/img_jogo_alfabeto/uva.png"/>
+                <img class="vaca ilust"  src="../../Public/Img/img_jogo_alfabeto/vaca.png"/>
+                <img class="wifi ilust"  src="../../Public/Img/img_jogo_alfabeto/wifi.png"/>
+                <img class="xicara ilust"  src="../../Public/Img/img_jogo_alfabeto/xicara.png"/>
+                <img class="youtube ilust"  src="../../Public/Img/img_jogo_alfabeto/youtube.png"/>
+                <img class="zebra ilust"  src="../../Public/Img/img_jogo_alfabeto/zebra.png"/>
             </div>
         </main>
     </body>
