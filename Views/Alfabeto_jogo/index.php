@@ -9,32 +9,32 @@
     <body>
         <main>
             <div class="alfabeto">
-                <img class="letra-a" src="../../Public/Img/img_jogo_alfabeto/letra-a.png"/>
-                <img class="letra-b"  src="../../Public/Img/img_jogo_alfabeto/letra-b.png"/>
-                <img class="letra-c"  src="../../Public/Img/img_jogo_alfabeto/letra-c.png"/>
-                <img class="letra-d"  src="../../Public/Img/img_jogo_alfabeto/letra-d.png"/>
-                <img class="letra-e"  src="../../Public/Img/img_jogo_alfabeto/letra-e.png"/>
-                <img class="letra-f"  src="../../Public/Img/img_jogo_alfabeto/letra-f.png"/>
-                <img class="letra-g"  src="../../Public/Img/img_jogo_alfabeto/letra-g.png"/>
-                <img class="letra-h"  src="../../Public/Img/img_jogo_alfabeto/letra-h.png"/>
-                <img class="letra-i"  src="../../Public/Img/img_jogo_alfabeto/letra-i.png"/>
-                <img class="letra-j"  src="../../Public/Img/img_jogo_alfabeto/letra-j.png"/>
-                <img class="letra-k"  src="../../Public/Img/img_jogo_alfabeto/letra-k.png"/>
-                <img class="letra-l"  src="../../Public/Img/img_jogo_alfabeto/letra-l.png"/>
-                <img class="letra-m"  src="../../Public/Img/img_jogo_alfabeto/letra-m.png"/>
-                <img class="letra-n"  src="../../Public/Img/img_jogo_alfabeto/letra-n.png"/>
-                <img class="letra-o"  src="../../Public/Img/img_jogo_alfabeto/letra-o.png"/>
-                <img class="letra-p"  src="../../Public/Img/img_jogo_alfabeto/letra-p.png"/>
-                <img class="letra-q"  src="../../Public/Img/img_jogo_alfabeto/letra-q.png"/>
-                <img class="letra-r"  src="../../Public/Img/img_jogo_alfabeto/letra-r.png"/>
-                <img class="letra-s"  src="../../Public/Img/img_jogo_alfabeto/letra-s.png"/>
-                <img class="letra-t"  src="../../Public/Img/img_jogo_alfabeto/letra-t.png"/>
-                <img class="letra-u"  src="../../Public/Img/img_jogo_alfabeto/letra-u.png"/>
-                <img class="letra-v"  src="../../Public/Img/img_jogo_alfabeto/letra-v.png"/>
-                <img class="letra-w"  src="../../Public/Img/img_jogo_alfabeto/letra-w.png"/>
-                <img class="letra-x"  src="../../Public/Img/img_jogo_alfabeto/letra-x.png"/>
-                <img class="letra-y"  src="../../Public/Img/img_jogo_alfabeto/letra-y.png"/>
-                <img class="letra-z"  src="../../Public/Img/img_jogo_alfabeto/letra-z.png"/>
+                <img onclick="audio_a()" class="letra-a" src="../../Public/Img/img_jogo_alfabeto/letra-a.png"/>
+                <img onclick="audio_b()" class="letra-b"  src="../../Public/Img/img_jogo_alfabeto/letra-b.png"/>
+                <img onclick="audio_c()" class="letra-c"  src="../../Public/Img/img_jogo_alfabeto/letra-c.png"/>
+                <img onclick="audio_d()" class="letra-d"  src="../../Public/Img/img_jogo_alfabeto/letra-d.png"/>
+                <img onclick="audio_e()" class="letra-e"  src="../../Public/Img/img_jogo_alfabeto/letra-e.png"/>
+                <img onclick="audio_f()" class="letra-f"  src="../../Public/Img/img_jogo_alfabeto/letra-f.png"/>
+                <img onclick="audio_g()" class="letra-g"  src="../../Public/Img/img_jogo_alfabeto/letra-g.png"/>
+                <img onclick="audio_h()" class="letra-h"  src="../../Public/Img/img_jogo_alfabeto/letra-h.png"/>
+                <img onclick="audio_i()" class="letra-i"  src="../../Public/Img/img_jogo_alfabeto/letra-i.png"/>
+                <img onclick="audio_j()" class="letra-j"  src="../../Public/Img/img_jogo_alfabeto/letra-j.png"/>
+                <img onclick="audio_k()" class="letra-k"  src="../../Public/Img/img_jogo_alfabeto/letra-k.png"/>
+                <img onclick="audio_l()" class="letra-l"  src="../../Public/Img/img_jogo_alfabeto/letra-l.png"/>
+                <img onclick="audio_m()" class="letra-m"  src="../../Public/Img/img_jogo_alfabeto/letra-m.png"/>
+                <img onclick="audio_n()" class="letra-n"  src="../../Public/Img/img_jogo_alfabeto/letra-n.png"/>
+                <img onclick="audio_o()" class="letra-o"  src="../../Public/Img/img_jogo_alfabeto/letra-o.png"/>
+                <img onclick="audio_p()" class="letra-p"  src="../../Public/Img/img_jogo_alfabeto/letra-p.png"/>
+                <img onclick="audio_q()" class="letra-q"  src="../../Public/Img/img_jogo_alfabeto/letra-q.png"/>
+                <img onclick="audio_r()" class="letra-r"  src="../../Public/Img/img_jogo_alfabeto/letra-r.png"/>
+                <img onclick="audio_s()" class="letra-s"  src="../../Public/Img/img_jogo_alfabeto/letra-s.png"/>
+                <img onclick="audio_t()" class="letra-t"  src="../../Public/Img/img_jogo_alfabeto/letra-t.png"/>
+                <img onclick="audio_u()" class="letra-u"  src="../../Public/Img/img_jogo_alfabeto/letra-u.png"/>
+                <img onclick="audio_v()" class="letra-v"  src="../../Public/Img/img_jogo_alfabeto/letra-v.png"/>
+                <img onclick="audio_w()" class="letra-w"  src="../../Public/Img/img_jogo_alfabeto/letra-w.png"/>
+                <img onclick="audio_x()" class="letra-x"  src="../../Public/Img/img_jogo_alfabeto/letra-x.png"/>
+                <img onclick="audio_y()" class="letra-y"  src="../../Public/Img/img_jogo_alfabeto/letra-y.png"/>
+                <img onclick="audio_z()" class="letra-z"  src="../../Public/Img/img_jogo_alfabeto/letra-z.png"/>
                 <!--objetos e animais-->
                 <img class="abelha ilust"  src="../../Public/Img/img_jogo_alfabeto/abelha.png"/>
                 <img class="bola ilust"  src="../../Public/Img/img_jogo_alfabeto/bola.png"/>
@@ -65,4 +65,5 @@
             </div>
         </main>
     </body>
+    <script src="../../Public/Alfabeto_jogo/audio.js"></script>
 </html>
