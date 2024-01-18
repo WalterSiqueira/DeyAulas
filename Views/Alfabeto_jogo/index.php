@@ -63,6 +63,7 @@
                 <img class="youtube ilust"  src="../../Public/Img/img_jogo_alfabeto/youtube.png"/>
                 <img class="zebra ilust"  src="../../Public/Img/img_jogo_alfabeto/zebra.png"/>
             </div>
+            <button onclick="voltar_principal()" class="voltar-btn" id="voltar-btn">Voltar</button>
         </main>
     </body>
     <script src="../../Public/Alfabeto_jogo/audio.js"></script>

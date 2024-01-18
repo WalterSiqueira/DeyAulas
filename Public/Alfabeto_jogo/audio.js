@@ -103,3 +103,7 @@ function audio_y() {
 function audio_z() {
     letra_z.play();
 }
+
+function voltar_principal() {
+    window.location.href="/deyaulas/index.php";
+}
