@@ -105,5 +105,5 @@ function audio_z() {
 }
 
 function voltar_principal() {
-    window.location.href="/deyaulas/index.php";
+    window.location.href="/deyaulas/index.html";
 }
