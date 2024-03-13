@@ -9,15 +9,15 @@
   .logo_img {
     width: 100%;
     height: 85%;
-    padding: 5% 0 0 2%;
+    padding: 5% 0 0 5%;
   }
   .header_cadastro {
     width: 98.75vw;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
@@ -33,12 +33,12 @@
     width: 95vw;
     height: 90vh;
     padding: 5% 0 0 5%;
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: none;
   }
   .div_form {
     width: 90vw;
-    height: 85vh;
+    height: 65vh;
     display: grid;
     grid-template-areas:
       'titulo'
@@ -46,35 +46,43 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
+    margin: 30% 0 0 0;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 6%;
+    gap: 8%;
     margin: 10% 0 0 0;
   }
   h2 {
     text-align: center;
-    font-size: 2em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.4em;
     padding: 3% 0 0 0;
   }
   input {
     border-radius: 10vw;
     width: 90%;
-    height: 7%;
+    height: 10%;
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     -webkit-backgrop-filter: blur(16px);
   }
   label {
-    font-size: 1.4rem;
-    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Piedra", serif;
+    text-align: left;
+    color: white;
+    margin-left: 5%;
   }
   button {
     width: 40%;
@@ -102,7 +110,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
@@ -118,7 +126,7 @@
     width: 95vw;
     height: 90vh;
     padding: 5% 0 0 5%;
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: none;
   }
   .div_form {
@@ -131,10 +139,12 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
+    margin: 30% 0 0 0;
   }
   form {
     grid-area: form;
@@ -183,8 +193,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px)
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
@@ -202,7 +212,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
   }
@@ -268,8 +278,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px)
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
@@ -288,7 +298,7 @@
     justify-content: center;
     align-items: center;
     /*padding: 5% 0 0 5%;*/
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -354,8 +364,8 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px)
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
@@ -374,7 +384,7 @@
     justify-content: center;
     align-items: center;
     /*padding: 5% 0 0 5%;*/
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
