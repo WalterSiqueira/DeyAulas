@@ -4,16 +4,18 @@
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .div_logo {
-    width: 30%;
+    width: 13%;
+    height: 87%;
+    margin: 2% 5% 0 0;
   }
-  .logo_img {
+  .catalogo_img {
     width: 100%;
     height: 85%;
     padding: 5% 0 0 5%;
   }
   .header_cadastro {
     width: 98.75vw;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -22,9 +24,23 @@
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  a {
+    height: 10vh;
+  }
 
   .mobile_icones {
     display: block;
+    width: 60%;
+    height: 75%;
+    margin: 12% 0 0 35%;
+  }
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: none;
@@ -38,27 +54,27 @@
   }
   .div_form {
     width: 90vw;
-    height: 65vh;
+    height: 75vh;
     display: grid;
     grid-template-areas:
       'titulo'
       '.'
-      'form';
+      'form'
+      '.';
     grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
+    grid-template-rows: 0.3fr 0.2fr 3fr 0.2fr;
     background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
     border-radius: 5vh;
-    margin: 30% 0 0 0;
+    margin: 10% 0 0 0;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 8%;
-    margin: 10% 0 0 0;
+    grid-gap: 2%;
   }
   h2 {
     text-align: center;
@@ -70,7 +86,7 @@
   input {
     border-radius: 10vw;
     width: 90%;
-    height: 10%;
+    height: 100%;
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
@@ -85,24 +101,28 @@
     margin-left: 5%;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 0 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 15%;
+    margin: 8% 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.2rem;
+    font-family: "Piedra", serif;
   }
 
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
   .div_logo {
-    width: 30%;
+    width: 8%;
+    height: 70%;
+    margin: 1% 0 0 2%;
   }
-  .logo_img {
+  .catalogo_img {
     width: 100%;
-    height: 85%;
-    padding: 5% 0 0 2%;
+    height: 100%;
   }
   .header_cadastro {
     width: 99.4vw;
@@ -115,78 +135,97 @@
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
   .mobile_icones {
     display: block;
+    width: 80%;
+    height: 70%;
+    margin: 15% 0 0 0; 
+  }
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: none;
   }
   main {
     width: 95vw;
-    height: 90vh;
+    height: 95vh;
     padding: 5% 0 0 5%;
     background-image: url("../Img/fundo.png");
     background-repeat: none;
   }
   .div_form {
     width: 90vw;
-    height: 85vh;
+    height: 95vh;
     display: grid;
     grid-template-areas:
       'titulo'
       '.'
       'form';
     grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
+    grid-template-rows: 0.3fr 0.2fr 3.5fr;
     background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
     border-radius: 5vh;
-    margin: 30% 0 0 0;
+    margin: 1% 0 0 0;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 7%;
-    margin: 10% 0 0 0;
+    gap: 6%;
   }
   h2 {
     text-align: center;
-    font-size: 2em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 3em;
     padding: 3% 0 0 0;
   }
   input {
     border-radius: 10vw;
     width: 90%;
-    height: 7%;
+    height: 70%;
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     -webkit-backgrop-filter: blur(16px);
   }
   label {
-    font-size: 1.4rem;
-    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Piedra", serif;
+    text-align: left;
+    color: white;
+    margin-left: 5%;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 0 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 25%;
+    margin: 0 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.2rem;
+    font-family: "Piedra", serif;
   }
 
 }
 @media screen and (min-width: 800px) and (max-width: 1024px) {
-  .logo_img {
-    width: 35%;
+  .catalogo_img {
+    width: 100%;
     height: 85%;
-    margin: 1% 0 0 2%;
+    margin: 4% 0 0 15%;
   }
   .header_cadastro {
     width: 99.69vw;
@@ -199,8 +238,20 @@
     border: solid black 2px;
   }
 
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
   .mobile_icones {
     display: none;
+    width: 100%;
+    height: 85%;
+    margin: 15% 0 0 15%;
+  }
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: block;
@@ -226,7 +277,7 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
@@ -235,12 +286,14 @@
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 7%;
+    gap: 6%;
     margin: 10% 0 0 0;
   }
   h2 {
     text-align: center;
-    font-size: 3.5em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 4em;
     padding: 5% 0 0 0;
   }
   input {
@@ -250,21 +303,27 @@
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     -webkit-backgrop-filter: blur(16px);
   }
   label {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
+    font-family: "Piedra", serif;
+    color: white;
     padding: 0 0 0 5%;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 10% 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 8%;
+    margin: 0 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-family: "Piedra", serif;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
