@@ -281,13 +281,14 @@
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 6%;
-    margin: 10% 0 0 0;
+    gap: 1%;
+    margin: 0% 0 0 0;
   }
   h2 {
     text-align: center;
@@ -315,8 +316,8 @@
   }
   button {
     width: 55%;
-    height: 8%;
-    margin: 0 0 3% 23%;
+    height: 12%;
+    margin: 5% 0 3% 23%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
@@ -327,13 +328,13 @@
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-  .logo_img {
-    width: 35%;
+  .catalogo_img {
+    width: 100%;
     height: 85%;
-    margin: 1% 0 0 2%;
+    margin: 4% 0 0 15%;
   }
   .header_cadastro {
-    width: 98.7vw;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -343,14 +344,24 @@
     border: solid black 2px;
   }
 
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
   .mobile_icones {
     display: none;
   }
   .desktop_icones {
     display: block;
   }
+    .login_img {
+      width: 100%;
+      height: 85%;
+      margin: 4% 15% 0 0;
+    }
   main {
-    width: 98.8vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: row wrap;
@@ -371,29 +382,32 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 7%;
-    margin: 10% 0 0 0;
+    gap: 1%;
+    margin: 2% 0 0 0;
   }
   h2 {
     text-align: center;
     font-size: 3.5em;
     padding: 5% 0 0 0;
+    font-family: "Piedra", serif;
+    color:white;
   }
   input {
     border-radius: 10vw;
     width: 90%;
     height: 7%;
     margin: 0 5% 0 5%;
-    background-color: rgba(245, 245, 245, 0.5);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
   }
@@ -401,25 +415,30 @@
     font-size: 2rem;
     text-align: left;
     padding: 0 0 0 5%;
+    font-family: "Piedra", serif;
+    color:white;
+    font-size: 2.4rem;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 10% 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 12%;
+    margin: 3% 0 5% 23%;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.8rem;
+    border-radius: 5vh;
   } 
 }
 @media screen and (min-width:1441px) {
-  .logo_img {
-    width: 35%;
+  .catalogo_img {
+    width: 100%;
     height: 85%;
-    margin: 1% 0 0 2%;
+    margin: 4% 0 0 15%;
   }
   .header_cadastro {
-    width: 98.7vw;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -429,14 +448,24 @@
     border: solid black 2px;
   }
 
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
   .mobile_icones {
     display: none;
   }
   .desktop_icones {
     display: block;
   }
+    .login_img {
+      width: 100%;
+      height: 85%;
+      margin: 4% 15% 0 0;
+    }
   main {
-    width: 98.8vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: row wrap;
@@ -457,29 +486,32 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 7%;
-    margin: 10% 0 0 0;
+    gap: 1%;
+    margin: 2% 0 0 0;
   }
   h2 {
     text-align: center;
     font-size: 3.5em;
     padding: 5% 0 0 0;
+    font-family: "Piedra", serif;
+    color:white;
   }
   input {
     border-radius: 10vw;
     width: 90%;
     height: 7%;
     margin: 0 5% 0 5%;
-    background-color: rgba(245, 245, 245, 0.5);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
   }
@@ -487,14 +519,19 @@
     font-size: 2rem;
     text-align: left;
     padding: 0 0 0 5%;
+    font-family: "Piedra", serif;
+    color:white;
+    font-size: 2.4rem;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 10% 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 12%;
+    margin: 3% 0 5% 23%;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.8rem;
+    border-radius: 5vh;
   }
 }
