@@ -4,12 +4,14 @@
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .div_logo {
-    width: 30%;
+    width: 13%;
+    height: 87%;
+    margin: 2% 5% 0 0;
   }
-  .logo_img {
+  .catalogo_img {
     width: 100%;
     height: 85%;
-    padding: 5% 0 0 2%;
+    padding: 5% 0 0 5%;
   }
   .header_login {
     width: 98.75vw;
@@ -17,110 +19,117 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  a {
+    height: 10vh;
   }
 
   .mobile_icones {
     display: block;
+    width: 60%;
+    height: 75%;
+    margin: 12% 0 0 35%;
   }
-  .menu_img {
-    cursor: pointer;
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: none;
-    width: 50vw;
-    height: 60vh;
-    position: absolute;
-    left: 25vw;
-    top: 25vh;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    z-index: 5;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    border: solid black 2px;
-  }
-  .fechar_img {
-    width: 30%;
-    height: 13%;
   }
   main {
     width: 95vw;
     height: 90vh;
     padding: 5% 0 0 5%;
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: none;
   }
   .div_form {
     width: 90vw;
-    height: 85vh;
+    height: 75vh;
     display: grid;
     grid-template-areas:
       'titulo'
       '.'
-      'form';
+      'form'
+      '.';
     grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    grid-template-rows: 0.3fr 0.2fr 3fr 0.2fr;
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
+    margin: 10% 0 0 0;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 6%;
-    margin: 10% 0 0 0;
+    grid-gap: 8%;
   }
   h2 {
     text-align: center;
-    font-size: 2em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.4em;
     padding: 3% 0 0 0;
   }
   h3 {
     text-align: center;
-    font-size: 1.4em;
-    padding: 3% 0 0 0;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
   }
   input {
     border-radius: 10vw;
     width: 90%;
-    height: 7%;
+    height: 100%;
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     -webkit-backgrop-filter: blur(16px);
   }
   label {
-    font-size: 1.4rem;
-    padding: 0 0 0 5%;
-    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Piedra", serif;
+    text-align: left;
+    color: white;
+    margin-left: 5%;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 0 0 0 32%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 15%;
+    margin: 8% 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.2rem;
+    font-family: "Piedra", serif;
   }
 
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
   .div_logo {
-    width: 30%;
+    width: 8%;
+    height: 70%;
+    margin: 1% 0 0 2%;
   }
-  .logo_img {
+  .catalogo_img {
     width: 100%;
-    height: 85%;
-    padding: 5% 0 0 2%;
+    height: 100%;
   }
   .header_login {
     width: 99.4vw;
@@ -128,110 +137,142 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
   .mobile_icones {
     display: block;
+    width: 80%;
+    height: 70%;
+    margin: 15% 0 0 0; 
+  }
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: none;
   }
   main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../Img/fundo_ceu.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    width: 95vw;
+    height: 95vh;
+    padding: 5% 0 0 5%;
+    background-image: url("../Img/fundo.png");
+    background-repeat: none;
   }
   .div_form {
-    width: 45vw;
-    height: 85vh;
+    width: 90vw;
+    height: 95vh;
     display: grid;
     grid-template-areas:
       'titulo'
       '.'
       'form';
     grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    grid-template-rows: 0.3fr 0.2fr 3.5fr;
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
+    margin: 1% 0 0 0;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 7%;
-    margin: 10% 0 0 0;
+    gap: 6%;
   }
   h2 {
     text-align: center;
-    font-size: 2em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 3em;
     padding: 3% 0 0 0;
   }
   h3 {
     text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
     font-size: 1.8em;
-    padding: 3% 0 0 0;
+    padding: 5% 0 0 0;
   }
   input {
     border-radius: 10vw;
     width: 90%;
-    height: 7%;
+    height: 70%;
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
     -webkit-backgrop-filter: blur(16px);
   }
   label {
-    font-size: 1.4rem;
-    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Piedra", serif;
+    text-align: left;
+    color: white;
+    margin-left: 5%;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 0 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 25%;
+    margin: 0 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.2rem;
+    font-family: "Piedra", serif;
   }
 
 }
 @media screen and (min-width: 800px) and (max-width: 1024px) {
-  .logo_img {
-    width: 35%;
+  .catalogo_img {
+    width: 100%;
     height: 85%;
-    margin: 1% 0 0 2%;
+    margin: 4% 0 0 15%;
   }
   .header_login {
     width: 99.69vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
   }
 
+  .fechar_img {
+    display:none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
   .mobile_icones {
     display: none;
+    width: 100%;
+    height: 85%;
+    margin: 15% 0 0 15%;
+  }
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
     display: block;
-  }
-  .fechar_img {
-    display: none;
   }
   main {
     width: 100vw;
@@ -240,106 +281,12 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-image: url("../Img/fundo_ceu.jpg");
+    background-image: url("../Img/fundo.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
   }
   .div_form {
     width: 55vw;
-    height: 95vh;
-    display: grid;
-    grid-template-areas:
-      'titulo'
-      '.'
-      'form';
-    grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    border: solid black 2px;
-  }
-  form {
-    grid-area: form;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 5%;
-    margin: 10% 0 0 0;
-  }
-  h2 {
-    text-align: center;
-    font-size: 3.5em;
-    padding: 5% 0 0 0;
-  }
-  h3 {
-    text-align: center;
-    font-size: 1.8em;
-    padding: 5% 0 0 0;
-  }
-  input {
-    border-radius: 10vw;
-    width: 90%;
-    height: 7%;
-    margin: 0 5% 0 5%;
-    background-color: rgba(245, 245, 245, 0.5);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-  }
-  label {
-    font-size: 2rem;
-    text-align: left;
-    padding: 0 0 0 5%;
-  }
-  button {
-    width: 40%;
-    height: 9%;
-    margin: 0 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-  .logo_img {
-    width: 35%;
-    height: 85%;
-    margin: 1% 0 0 2%;
-  }
-  .header_login {
-    width: 98.7vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    border: solid black 2px;
-  }
-
-  .mobile_icones {
-    display: none;
-  }
-  .desktop_icones {
-    display: block;
-  }
-  .fechar_img {
-    display: none;
-  }
-  main {
-    width: 98.8vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    /*padding: 5% 0 0 5%;*/
-    background-image: url("../Img/fundo_ceu.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-  .div_form {
-    width: 35vw;
     height: 85vh;
     display: grid;
     grid-template-areas:
@@ -348,119 +295,30 @@
       'form';
     grid-template-columns: auto;
     grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
+    background-color: rgba(187, 234, 243, 100%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     border: solid black 2px;
+    border-radius: 5vh;
   }
   form {
     grid-area: form;
     display: flex;
     flex-flow: column nowrap;
-    gap: 4%;
-    margin: 10% 0 0 0;
+    gap: 5%;
+    margin: 0% 0 0 0;
   }
   h2 {
     text-align: center;
-    font-size: 3.5em;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 4em;
     padding: 5% 0 0 0;
   }
   h3 {
     text-align: center;
-    font-size: 1.8em;
-    padding: 5% 0 0 0;
-  }
-  input {
-    border-radius: 10vw;
-    width: 90%;
-    height: 15%;
-    margin: 0 5% 0 5%;
-    background-color: rgba(245, 245, 245, 0.5);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-  }
-  label {
-    font-size: 2rem;
-    text-align: left;
-    padding: 0 0 0 5%;
-  }
-  button {
-    width: 40%;
-    height: 9%;
-    margin: 10% 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    font-size: 1.8rem;
-  } 
-}
-@media screen and (min-width:1441px) {
-  .logo_img {
-    width: 35%;
-    height: 85%;
-    margin: 1% 0 0 2%;
-  }
-  .header_login {
-    width: 98.7vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    border: solid black 2px;
-  }
-
-  .mobile_icones {
-    display: none;
-  }
-  .desktop_icones {
-    display: block;
-  }
-  .fechar_img {
-    display: none;
-  }
-  main {
-    width: 98.8vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    /*padding: 5% 0 0 5%;*/
-    background-image: url("../Img/fundo_ceu.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-  .div_form {
-    width: 35vw;
-    height: 95vh;
-    display: grid;
-    grid-template-areas:
-      'titulo'
-      '.'
-      'form';
-    grid-template-columns: auto;
-    grid-template-rows: 0.3fr 0.2fr 2fr;
-    background-color: rgba(139, 195, 74, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
-    border: solid black 2px;
-  }
-  form {
-    grid-area: form;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 7%;
-    margin: 10% 0 0 0;
-  }
-  h2 {
-    text-align: center;
-    font-size: 3.5em;
-    padding: 5% 0 0 0;
-  }
-  h3 {
-    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
     font-size: 1.8em;
     padding: 5% 0 0 0;
   }
@@ -471,20 +329,256 @@
     margin: 0 5% 0 5%;
     background-color: rgba(245, 245, 245, 0.5);
     backdrop-filter: blur(16px);
+    border: solid rgba(255, 179, 123, 100%) 2px;
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: "Piedra", serif;
+    color: white;
+    padding: 0 0 0 5%;
+  }
+  button {
+    width: 55%;
+    height: 12%;
+    margin: 5% 0 3% 23%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 2rem;
+    font-family: "Piedra", serif;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .catalogo_img {
+    width: 100%;
+    height: 85%;
+    margin: 4% 0 0 15%;
+  }
+  .header_login {
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+
+  .fechar_img {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile_icones {
+    display: none;
+  }
+  .desktop_icones {
+    display: block;
+  }
+    .login_img {
+      width: 100%;
+      height: 85%;
+      margin: 4% 15% 0 0;
+    }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*padding: 5% 0 0 5%;*/
+    background-image: url("../Img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .div_form {
+    width: 35vw;
+    height: 75vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(187, 234, 243, 100%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+    border-radius: 5vh;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1%;
+    margin: 2% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 5% 0 0 0;
+    font-family: "Piedra", serif;
+    color:white;
+  }
+  h3 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    border: solid rgba(255, 179, 123, 100%) 2px;
+    backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
   }
   label {
     font-size: 2rem;
     text-align: left;
     padding: 0 0 0 5%;
+    font-family: "Piedra", serif;
+    color:white;
+    font-size: 2.4rem;
   }
   button {
-    width: 40%;
-    height: 9%;
-    margin: 5% 0 0 30%;
-    background-color: rgba(139, 195, 74, 0.2);
+    width: 55%;
+    height: 12%;
+    margin: 3% 0 5% 23%;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.8rem;
+    border-radius: 5vh;
+  } 
+}
+@media screen and (min-width:1441px) {
+  .catalogo_img {
+    width: 100%;
+    height: 85%;
+    margin: 4% 0 0 15%;
+  }
+  .header_login {
+    width: 99vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+  }
+
+  .fechar_img {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile_icones {
+    display: none;
+  }
+  .desktop_icones {
+    display: block;
+  }
+    .login_img {
+      width: 100%;
+      height: 85%;
+      margin: 4% 15% 0 0;
+    }
+  main {
+    width: 99.2vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*padding: 5% 0 0 5%;*/
+    background-image: url("../Img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .div_form {
+    width: 35vw;
+    height: 75vh;
+    display: grid;
+    grid-template-areas:
+      'titulo'
+      '.'
+      'form';
+    grid-template-columns: auto;
+    grid-template-rows: 0.3fr 0.2fr 2fr;
+    background-color: rgba(187, 234, 243, 100%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    border: solid black 2px;
+    border-radius: 5vh;
+  }
+  form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1%;
+    margin: 2% 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 5% 0 0 0;
+    font-family: "Piedra", serif;
+    color:white;
+  }
+  h3 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 1.8em;
+    padding: 5% 0 0 0;
+  }
+  input {
+    border-radius: 10vw;
+    width: 90%;
+    height: 7%;
+    margin: 0 5% 0 5%;
+    border: solid rgba(255, 179, 123, 100%) 2px;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  label {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 0 0 5%;
+    font-family: "Piedra", serif;
+    color:white;
+    font-size: 2.4rem;
+  }
+  button {
+    width: 55%;
+    height: 12%;
+    margin: 3% 0 5% 23%;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.8rem;
+    border-radius: 5vh;
   }
 }

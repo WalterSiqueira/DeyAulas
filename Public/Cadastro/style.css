@@ -438,7 +438,7 @@
     margin: 4% 0 0 15%;
   }
   .header_cadastro {
-    width: 100vw;
+    width: 98.9vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -465,7 +465,7 @@
       margin: 4% 15% 0 0;
     }
   main {
-    width: 100vw;
+    width: 99.3vw;
     height: 100vh;
     display: flex;
     flex-flow: row wrap;
