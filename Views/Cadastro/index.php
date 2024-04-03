@@ -26,14 +26,14 @@
     <main>
       <div class="div_form">
         <h2>Cadastro</h2>
-        <form action="#" method="post">
+        <form action="../../Controllers/Cadastro_funcao.php" method="post">
           <label>Nome:</label>
-          <input type="text">
+          <input type="text" name="nome">
           <label>E-mail:</label>
-          <input type="email">
+          <input type="email" name="email">
           <label>Senha:</label>
-          <input type="password">
-          <button>Cadastrar</button>
+          <input type="password" name="senha">
+          <button type="submit">Cadastrar</button>
         </form>
       </div>
     </main> 
