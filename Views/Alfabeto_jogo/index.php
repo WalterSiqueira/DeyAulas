@@ -13,6 +13,7 @@
   <div class="container">
     <div class="game">
       <div class="word-container">
+        <img id="image" class="img_palavra" src alt="Imagem">
         <p id="word">Palavra_</p>
       </div>
     </div>

@@ -4,7 +4,7 @@
       margin: 0;
       padding: 0;
       background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 200vh;
+      background-size: 260vh;
       background-repeat: no-repeat;
     }
     
@@ -16,6 +16,11 @@
       grid-template-columns: auto;
       grid-template-rows: 15vh 2fr;
       height: 100vh;
+    }
+
+    .img_palavra {
+      width: 40vw;
+      height: 25vh;
     }
     
     .game {
@@ -34,6 +39,7 @@
       grid-area: letras;
       display: flex;
       flex-flow: column nowrap;
+      padding: 95% 0 0 0;
       
     }
     
@@ -88,7 +94,7 @@
     
     .word-container {
       margin-bottom: 20px;
-      padding: 80% 0 0 0;
+      padding: 20% 0 0 0;
       font-size: 2.5rem;
     }
     
@@ -149,7 +155,7 @@
     
     .word-container {
       margin-bottom: 20px;
-      padding: 80% 0 0 0;
+      padding: 20% 0 0 0;
       font-size: 2.5rem;
     }
     
@@ -210,7 +216,7 @@
     
     .word-container {
       margin-bottom: 20px;
-      padding: 80% 0 0 0;
+      padding: 20% 0 0 0;
       font-size: 2.5rem;
     }
     
@@ -271,7 +277,7 @@
     
     .word-container {
       margin-bottom: 20px;
-      padding: 80% 0 0 0;
+      padding: 20% 0 0 0;
       font-size: 2.5rem;
     }
     

@@ -1,5 +1,10 @@
 // Definição do array de palavras
-const words = ["GATO", "CACHORRO", "CASA", "CARRO", "BOLA"]; // Exemplo de palavras
+const words = ["GATO", "CACHORRO", "BOLA"]; // Exemplo de palavras
+const imgs = [
+  "gato.png",
+  "cachorro.png",
+  "bola.png"
+];
 
 // Definição do array de imagens das letras do alfabeto
 const alphabetImages = [
@@ -68,6 +73,8 @@ function displayAlphabet() {
     li.appendChild(img); // Adiciona a imagem como filho do elemento de lista
     li.addEventListener("click", () => checkLetter(letter)); // Adiciona um ouvinte de evento de clique para verificar a letra quando clicada
     alphabetElement.appendChild(li); // Adiciona o elemento de lista ao elemento HTML do alfabeto
+    const imageElement = document.getElementById("image"); // Obtém o elemento HTML onde a imagem será exibida
+    imageElement.src = `../../Public/Img/img_jogo_alfabeto/${imgs[currentIndex]}`; // Define a URL da imagem correspondente à palavra atual
   }
 }
 
@@ -97,6 +104,9 @@ function checkLetter(letter) {
 function changeWord() {
   currentIndex = (currentIndex + 1) % words.length; // Incrementa o índice da palavra atual, voltando ao início se atingir o final do array
   displayWord(); // Exibe a nova palavra na tela
+
+  const imageElement = document.getElementById("image"); // Obtém o elemento HTML onde a imagem será exibida
+  imageElement.src = `../../Public/Img/img_jogo_alfabeto/${imgs[currentIndex]}`; // Define a URL da imagem correspondente à palavra atual
 }
 
 setupGame(); // Inicia o jogo
