@@ -16,8 +16,8 @@
         width: 100vw;
         height: 95vh;
         background-image: url("../Img/fundo_carregamento_mobile.jpeg");
-        background-size: 100%;
-        background-repeat: none;
+        background-size: 150%;
+        background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -84,7 +84,7 @@
         width: 100vw;
         height: 100vh;
         background-image: url("../Img/fundo_carregamento.jpeg");
-        background-size: 110%;
+        background-size: 200%;
         background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
@@ -154,7 +154,7 @@
         height: 100vh;
         padding: 5% 0 0 0;
         background-image: url("../Img/fundo_carregamento.jpeg");
-        background-size: 100%;
+        background-size: 200%;
         background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
@@ -222,7 +222,7 @@
         height: 100vh;
         padding: 5% 0 0 0;
         background-image: url("../Img/fundo_carregamento.jpeg");
-        background-size: 100%;
+        background-size: 200%;
         background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
@@ -289,7 +289,7 @@
         width: 100vw;
         height: 100vh;
         background-image: url("../Img/fundo_carregamento.jpeg");
-        background-size: 100%;
+        background-size: 200%;
         background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
