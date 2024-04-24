@@ -1,0 +1,64 @@
+
+body {
+    background: #58cc02;
+    font-family: Nunito;
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+h3{
+    color: white;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+    border-radius: 1cap;
+    margin-bottom: 30px;
+}
+
+.alternativa {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #E6E6E6;
+    border-radius: 1cap;
+}
+
+.alternativa:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#pontos, #result {
+    color: white;
+}
+
+
+
+
+
+
