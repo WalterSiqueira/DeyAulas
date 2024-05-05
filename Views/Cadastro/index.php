@@ -12,7 +12,7 @@
   <body>
     <header class="header_cadastro">
       <div class="div_logo">
-        <a class="link_logo" href="../../index.html"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
+        <a class="link_logo" href="../Home/index.php"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
       </div>
       <nav>
         <div class="mobile_icones">

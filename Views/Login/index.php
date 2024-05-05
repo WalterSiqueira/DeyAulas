@@ -12,14 +12,14 @@
   <body>
     <header class="header_login">
       <div class="div_logo">
-        <a class="link_catalogo" href="../../index.html"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
+        <a class="link_catalogo" href="../Home/index.html"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
       </div>
       <nav>
         <div class="mobile_icones">
           <img onclick='abrir_menu()' class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
         </div>
         <div id="menu" class="desktop_icones">
-          <a class="link_cadastro" href="../Cadastro"><img  class="cadastro_img" src="../../Public/Img/icone_cadastro.png"></a>
+          <a class="link_cadastro" href="../Cadastro/index.php" ><img class="cadastro_img" src="../../Public/Img/icone_cadastro.png"></a>
           <img onclick='fechar_menu()' id="fechar" class="fechar_img" src="../../Public/Img/icone_fechar.png"/>
         </div>
     </header>
@@ -38,4 +38,5 @@
     </main> 
   </body>
 <script src="../../Public/Login/index.js"></script>
+<script src="caminho_para_o_seu_arquivo/transicoes.js"></script>
 </html>

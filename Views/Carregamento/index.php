@@ -26,4 +26,5 @@
     });
 
   </script>
+  <script src="caminho_para_o_seu_arquivo/transicoes.js"></script>
 </html>
