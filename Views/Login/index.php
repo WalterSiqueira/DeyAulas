@@ -38,5 +38,4 @@
     </main> 
   </body>
 <script src="../../Public/Login/index.js"></script>
-<script src="caminho_para_o_seu_arquivo/transicoes.js"></script>
 </html>

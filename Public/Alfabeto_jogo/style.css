@@ -4,7 +4,7 @@
       margin: 0;
       padding: 0;
       background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 260vh;
+      background-size: 300vh;
       background-repeat: no-repeat;
     }
     
@@ -133,7 +133,7 @@
       margin: 0;
       padding: 0;
       background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 200vh;
+      background-size: 250vh;
       background-repeat: no-repeat;
     }
     
@@ -194,7 +194,7 @@
       margin: 0;
       padding: 0;
       background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 200vh;
+      background-size: 250vh;
       background-repeat: no-repeat;
     }
     
@@ -251,12 +251,14 @@
 }
 @media screen and (min-width: 1441px) {
   body {
+      width: 200vw;
+      height: 100vh;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 200vh;
-      background-repeat: no-repeat;
+      background-size: 300vw 300vh;
+      background-repeat: repeat;
     }
     
     .container {
@@ -265,6 +267,7 @@
       'palavra . letras';
       grid-template-columns: 2fr 0.5fr 4fr;
       grid-template-rows: auto;
+      width: 100vw;
       height: 100vh;
     }
     

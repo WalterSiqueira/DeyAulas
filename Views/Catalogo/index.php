@@ -30,7 +30,7 @@
           <div class="div_jogo_alfabeto">
             <img class="jogo_alfabeto_img" src="../../Public/Img/Catalogo/jogo_alfabeto.png" alt="jogo sobre o alfabeto">
             <h3>Jogo do Alfabeto</h2>
-            <button>Jogar</button>
+            <button id="completar_palavra">Jogar</button>
           </div>
           <div class="div_jogo_alfabeto">
             <img class="jogo_alfabeto_img" src="../../Public/Img/Catalogo/jogo_alfabeto.png" alt="jogo sobre o alfabeto">
@@ -41,5 +41,5 @@
       </div>
     </main> 
   </body>
-<script src="../../Public/Login/index.js"></script>
+<script src="../../Public/Catalogo/index.js"></script>
 </html>
