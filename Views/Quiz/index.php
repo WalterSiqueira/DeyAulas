@@ -4,11 +4,11 @@
 	<!-- Tags Meta -->
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Javascript Duolingo">
+    <meta name="description" content="Quiz - Acerte o nome">
     <!-- Configuração do favicon -->
     <link rel="icon" type="image/x-icon" href="favic.ico">
     <!-- Título na guia do navegador -->
-    <title>Javascript Duolingo</title>
+    <title>Quiz - Acerte o nome!</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,9 @@
 <body>
 	<div id="wrapper">
 		<h3>Selecione a alternativa correta:</h3>
-		<div id="titulo"></div>
+		<div id="result"></div>
+		<div id="pontos"></div>
+		<div id="imagem"></div>
 		
 		<ul>
 			<li class="alternativa"></li>
@@ -27,8 +29,6 @@
 			<li class="alternativa"></li>
 			<li class="alternativa"></li>
 		</ul>
-		<div id="result"></div>
-		<div id="pontos"></div>
 	</div>
 	<script type="text/javascript" src="../../Public/Quiz/script.js"></script>
 	
