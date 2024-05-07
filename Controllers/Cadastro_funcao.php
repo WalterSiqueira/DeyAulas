@@ -1,17 +1,28 @@
 <?php
-include "../Models/conn.php";
-$nome = $_POST["nome"];
-$email = $_POST["email"];
-$senha = $_POST["senha"];
+    session_start();
 
-$stmt = $conn->prepare("");
-$stmt->bind_param("sss", $nome, $email, $senha);
+    include "../Models/conn.php";
 
-if ($stmt->execute()) {
-    echo "Dados inseridos com sucesso!";
-} else {
-    echo "erro ao inserir os dados!" . $stmt->error;
-}
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $senha = $_POST["senha"];
 
-$stmt->close();
-$conn->close();
+    $consulta_sql = "SELECT * FROM usuarios WHERE email = '$email'";
+
+    $resultado_consulta = $conn->query($consulta_sql);
+
+    if(mysqli_num_rows($resultado) > 0) {
+        print_r("Email já cadastrado.");
+        unset($_SESSION['email']);
+        header('Location: index.php');
+    }
+    else
+    {
+        $resultado_insert = mysqli_query($conn, "INSERT INTO usuarios(nome, email, senha) VALUES('$nome', '$email', '$senha')");
+        header("Location: ../Views/Login/index.php");
+    }
+
+
+
+  
+ 
