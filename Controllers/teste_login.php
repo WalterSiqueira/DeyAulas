@@ -9,21 +9,25 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        $consulta_sql = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha'";
+        $consulta_sql = "SELECT * FROM usuarios WHERE email=? AND senha=?";
 
-        $resultado = $conn->query($consulta_sql);
+        $stmt = $conn->prepare($consulta_sql);
 
-        if(mysqli_num_rows($resultado) < 1)
-        {
+        $stmt->bind_param("ss", $email, $senha);
+
+        $stmt->execute();
+
+        $resultado = $stmt->get_result();
+
+        if($resultado->num_rows < 1) {
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
-            header('Location: teste_login.php');
+            header('Location: /deyaulas/Controllers/teste_login.php');
         }
-        else 
-        {
+        else {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            header('Location: /index.php');
+            header('Location: /deyaulas/index.php');
         }
     }
 

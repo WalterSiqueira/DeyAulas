@@ -26,7 +26,7 @@
     <main>
       <div class="div_form" id="div_form">
         <h2>Login</h2>
-        <form action="/Controllers/teste_login.php" method="post">
+        <form action="../../Controllers/teste_login.php" method="post">
           <label>E-mail:</label>
           <input type="email">
           <label>Senha:</label>
