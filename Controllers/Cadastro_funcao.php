@@ -11,10 +11,10 @@
 
     $resultado_consulta = $conn->query($consulta_sql);
 
-    if(mysqli_num_rows($resultado) > 0) {
+    if(mysqli_num_rows($resultado_consulta) > 0) {
         print_r("Email já cadastrado.");
         unset($_SESSION['email']);
-        header('Location: index.php');
+        header('Location: ../index.php');
     }
     else
     {
