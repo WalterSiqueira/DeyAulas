@@ -1,6 +1,6 @@
 
 body {
-    background: #58cc02;
+    background-image: url("../Img/fundo_quiz.png");
     font-family: Nunito;
     text-align: center;
 }
@@ -29,8 +29,9 @@ ul {
 
 #imagem {
     width: 35%;
-    height: 50vh;
+    height: 35vh;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .alternativa {
@@ -38,7 +39,6 @@ ul {
     margin-bottom: 10px;
     padding: 10px;
     background: #F28080;
-    background-repeat: no-repeat;
     border: solid #DD0000 2px;
     border-radius: 1cap;
     font-size: 1.4em;
