@@ -23,6 +23,6 @@
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            header('Location: /deyaulas/index.php');
+            header('Location: /deyaulas/Views/Home/index.php');
         }
     }
