@@ -26,15 +26,13 @@
     <main>
       <div class="div_form" id="div_form">
         <h2>Login</h2>
-        <form action="../../Controllers/teste_login.php" method="post">
         <form action="../../Controllers/teste_login.php" method="POST">
           <label>E-mail:</label>
           <input type="email" name="email">
           <label>Senha:</label>
           <input type="password" name="senha">
-          <input type="submit" value="Enviar" class="inputSubmit" name="submit">
           <h3>Esqueci minha senha</h3>
-          <input type="submit" value="Enviar">
+          <button type="submit" value="Enviar" class="inputSubmit" name="submit">Entrar</button>
         </form>
       </div>
     </main> 

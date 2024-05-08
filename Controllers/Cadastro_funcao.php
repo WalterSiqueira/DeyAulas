@@ -21,8 +21,5 @@
         $resultado_insert = mysqli_query($conn, "INSERT INTO usuarios(nome, email, senha) VALUES('$nome', '$email', '$senha')");
         header("Location: ../Views/Login/index.php");
     }
-
-
-
   
  
