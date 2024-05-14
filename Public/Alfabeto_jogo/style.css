@@ -65,67 +65,104 @@
       font-size: 1.2em;
       -webkit-text-stroke: 1px black;
     }
+
+    .voltarbtn {
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 5% 0 0 5%;
+      width: 30%;
+      height: 5%;
+      border-radius: 10vh;
+      background-color: rgba(255, 179, 123, 100%);
+      color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 1.8em;
+      font-family: "Piedra", serif;
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 800px) {
   body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
-      background-size: 200vh;
-      background-repeat: no-repeat;
-    }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Img/img_jogo_alfabeto/fundo_alfabeto.png);
+    background-size: 250vh;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas: 
+    'palavra . letras';
+    grid-template-columns: 2fr 0.5fr 4fr;
+    grid-template-rows: auto;
+    height: 100vh;
+  }
+  
+  .game {
+    grid-area: palavra;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .word-container {
+    margin-bottom: 20px;
+    padding: 20% 0 0 0;
+    font-size: 2.5rem;
+  }
+
+  .img_palavra {
+    width: 40vw;
+    height: 50vh;
+  }
+  
+  .alphabet {
+    grid-area: letras;
+    display: flex;
+    flex-flow: column nowrap;
     
-    .container {
-      display: grid;
-      grid-template-areas: 
-      'palavra . letras';
-      grid-template-columns: 2fr 0.5fr 4fr;
-      grid-template-rows: auto;
-      height: 100vh;
-    }
-    
-    .game {
-      grid-area: palavra;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .word-container {
-      margin-bottom: 20px;
-      padding: 20% 0 0 0;
-      font-size: 2.5rem;
-    }
-    
-    .alphabet {
-      grid-area: letras;
-      display: flex;
-      flex-flow: column nowrap;
-      
-    }
-    
-    .alphabet li {
-      display: inline-block;
-      margin: 5px;
-      cursor: pointer;
-    }
-    
-    .alphabet li img {
-      width: 12vw; /* ajuste o tamanho conforme necessário */
-      height: 12vh; /* ajuste o tamanho conforme necessário */
-    }
-    
-    .alphabet li:hover img {
-      opacity: 0.7;
-    }
-    p {
-      text-align: center;
-      font-family: "Piedra", serif;
-      color: white;
-      font-size: 1.2em;
-      -webkit-text-stroke: 1px black;
-    }
+  }
+  
+  .alphabet li {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .alphabet li img {
+    width: 12vw; /* ajuste o tamanho conforme necessário */
+    height: 12vh; /* ajuste o tamanho conforme necessário */
+  }
+  
+  .alphabet li:hover img {
+    opacity: 0.7;
+  }
+  p {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 1.2em;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .voltarbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5% 5%;
+    width: 20%;
+    height: 5%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.8em;
+    font-family: "Piedra", serif;
+  }
 }
 @media screen and (min-width: 801px) and (max-width: 1024px) {
   body {
@@ -187,6 +224,22 @@
       font-size: 1.2em;
       -webkit-text-stroke: 1px black;
     }
+
+    .voltarbtn {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      margin: 0 0 5% 5%;
+      width: 15%;
+      height: 5%;
+      border-radius: 10vh;
+      background-color: rgba(255, 179, 123, 100%);
+      color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 1.8em;
+      font-family: "Piedra", serif;
+    }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   body {
@@ -247,6 +300,21 @@
       color: white;
       font-size: 1.2em;
       -webkit-text-stroke: 1px black;
+    }
+    .voltarbtn {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      margin: 0 0 5% 5%;
+      width: 15%;
+      height: 5%;
+      border-radius: 10vh;
+      background-color: rgba(255, 179, 123, 100%);
+      color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 2.4em;
+      font-family: "Piedra", serif;
     }
 }
 @media screen and (min-width: 1441px) {
@@ -311,5 +379,20 @@
       color: white;
       font-size: 1.2em;
       -webkit-text-stroke: 1px black;
+    }
+    .voltarbtn {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      margin: 0 0 5% 5%;
+      width: 15%;
+      height: 5%;
+      border-radius: 10vh;
+      background-color: rgba(255, 179, 123, 100%);
+      color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 2.4em;
+      font-family: "Piedra", serif;
     }
 }

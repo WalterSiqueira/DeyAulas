@@ -30,7 +30,10 @@
 			<li class="alternativa"></li>
 		</ul>
 	</div>
+	
+	<button id="voltarbtn" class="voltarbtn">Voltar</button>
 	<script type="text/javascript" src="../../Public/Quiz/script.js"></script>
+	<script src="../../Public/Alfabeto_jogo/voltar.js"></script>
 	
 </body>
 </html>

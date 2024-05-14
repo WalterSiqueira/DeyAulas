@@ -23,6 +23,8 @@
       </ul>
     </div>
   </div>
+  <button id="voltarbtn" class="voltarbtn">Voltar</button>
   <script src="../../Public/Alfabeto_jogo/funcionalidades.js"></script>
+  <script src="../../Public/Alfabeto_jogo/voltar.js"></script>
 </body>
 </html>

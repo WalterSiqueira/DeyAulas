@@ -39,6 +39,15 @@
     height: 75%;
     margin: 12% 0 0 35%;
   }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
   .menu_icon {
     width: 100%;
     height: 100%;
@@ -109,6 +118,15 @@
     width: 80%;
     height: 70%;
     margin: 15% 0 0 0; 
+  }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
   }
   .menu_icon {
     width: 100%;
@@ -181,6 +199,15 @@
     height: 85%;
     margin: 15% 0 0 15%;
   }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
   .menu_icon {
     width: 100%;
     height: 100%;
@@ -242,6 +269,15 @@
   }
 
   .mobile_icones {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+  .mobile_menu {
     display: none;
   }
   .desktop_icones {
@@ -306,6 +342,15 @@
 
   .mobile_icones {
     display: none;
+  }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
   }
   .desktop_icones {
     display: block;
