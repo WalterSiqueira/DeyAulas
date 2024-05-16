@@ -137,7 +137,7 @@
     height: 25%;
   }
   .mobile_menu {
-    width: 90vw;
+    width: 70vw;
     height: 60vh;
     display: none;
     flex-flow: column nowrap;
@@ -145,7 +145,6 @@
     justify-content: center;
     position: fixed;
     top: 25vh;
-    left: 5vw;
     background-color: rgba(187, 234, 243, 50%);
     border-radius: 2vh;
     border: solid 1px black;
