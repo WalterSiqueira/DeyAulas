@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>DeyAulas - Login</title>
+    <title>DeyAulas - Usuario</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,13 +31,17 @@
         </div>
     </header>
     <main>
-      <div class="div_form" id="div_form">
-        <h2>Tela do usuário</h2>
-        <h3>Nome de usuário</h3>
-        <h3 class="mostra_inf">Email</h3>
-        <button class="btn_user" id="btn_alterar_senha">Alterar senha</button>
-        <button class="btn_user" id="btn_trocar_conta">Trocar de conta</button>
-        <button class="btn_user" id="btn_excluir_conta">Excluir conta</button>
+      <div class="div_usuario" id="div_usuario">
+        <img class="user_pic" src="../../Public/Img/foto_usuario.png"/>
+        <div class="user_info">
+          <h3>Nome de usuário</h3>
+          <input type="text">
+          <h3 class="mostra_inf">Email</h3>
+          <input type="text">
+        </div>
+        <button class="btn_user alterar" id="btn_alterar_senha">Alterar senha</button>
+        <button class="btn_user trocar" id="btn_trocar_conta">Trocar de conta</button>
+        <button class="btn_user excluir" id="btn_excluir_conta">Excluir conta</button>
       </div>
     </main> 
   </body>
