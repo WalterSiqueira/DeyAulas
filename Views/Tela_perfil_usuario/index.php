@@ -43,6 +43,32 @@
         <button class="btn_user trocar" id="btn_trocar_conta">Trocar de conta</button>
         <button class="btn_user excluir" id="btn_excluir_conta">Excluir conta</button>
       </div>
+      <form class="form_escondida" id="atualizarSenha">
+        <h2>Atualize sua senha</h2>
+        <h3>Insira sua senha atual e sua nova senha</h3>
+        <label>Senha atual:</label>
+        <input type="password">
+        <label>Nova senha:</label>
+        <input type="password">
+        <label>Confirmar nova senha:</label>
+        <input type="password">
+        <button>Pronto</button>
+        <button>Cancelar</button>
+      </form>
+      <form class="form_escondida" id="atualizarEmail">
+        <h2>Atualize seu e-mail</h2>
+        <label>Novo e-mail:</label>
+        <input type="text">
+        <label>Informe sua senha:</label>
+        <input type="password">
+        <button>Pronto</button>
+        <button>Cancelar</button>
+      </form>
+      <form class="form_escondida" id="excluirConta">
+        <h2>Tem certeza que quer excluir sua conta?</h2>
+        <button>Sim</button>
+        <button>Não</button>
+      </form>
     </main> 
   </body>
 <script src="../../Public/Login/index.js"></script>
