@@ -1,16 +1,16 @@
-const menu = document.getElementById('menu');
-const fechar = document.getElementById('fechar');
-const form_div = document.getElementById('div_form');
+const conteudo_main = document.getElementById("div_form");
+const menubtn = document.getElementById("menubtn");
+const mobile_menu = document.getElementById("mobile_menu");
+var status = "fechado";
 
-
-function abrir_menu() {
-  console.log('abrir!');
-  menu.style.display = 'flex';
-  form_div.style.display = 'none'; 
-}
-
-function fechar_menu() {
-  console.log('fechar!');
-  menu.style.display = 'none';
-  form_div.style.display = 'grid';
-}
+menubtn.addEventListener("click", function() {
+    if (status === 'fechado') {
+        mobile_menu.style.display = 'flex';
+        conteudo_main.style.display = 'none';
+        status = 'aberto';
+    } else if (status === 'aberto') {
+        mobile_menu.style.display = 'none';
+        conteudo_main.style.display = '';
+        status = 'fechado';
+    }
+});

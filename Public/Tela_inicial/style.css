@@ -4,10 +4,11 @@
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
 /*o css da div logo controla o tamanho do botão catalogo!!*/
-  .div_logo {
+
+  .homeBtnDiv {
     width: 13%;
     height: 87%;
-    margin: 2% 5% 0 0;
+    margin: 5% 5% 0 5%;
   }
   .catalogo_img {
     width: 100%;
@@ -30,14 +31,15 @@
     width: 100%;
   }
   a {
-    height: 10vh;
+    text-decoration: none;
+    color: black;
   }
 
   .mobile_icones {
     display: block;
-    width: 60%;
-    height: 75%;
-    margin: 12% 0 0 35%;
+    width: 65%;
+    height: 70%;
+    margin: 15% 0 0 20%;
   }
   .opcao {
     width: 35%;
@@ -80,6 +82,14 @@
     text-align: center;
     font-family: "Piedra", serif;
     color: white;
+    font-size: 2.4em;
+    padding: 3% 0 0 0;
+    -webkit-text-stroke: 1px black;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
     font-size: 2.8em;
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
@@ -101,7 +111,7 @@
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
 /*o css da div logo controla o tamanho do botão catalogo!!*/
-  .div_logo {
+  .homeBtnDiv {
     width: 5%;
     height: 70%;
     margin: 1% 0 0 2%;
@@ -132,6 +142,12 @@
     height: 70%;
     margin: 15% 0 0 0; 
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .opcao {
     width: 35%;
     height: 25%;
@@ -145,21 +161,13 @@
     justify-content: center;
     position: fixed;
     top: 25vh;
+    left: 15vw;
     background-color: rgba(187, 234, 243, 50%);
     border-radius: 2vh;
     border: solid 1px black;
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
     row-gap: 5%;
-  }
-  .mobile_menu {
-    display: none;
-    position: fixed;
-    top: 25vh;
-    left: 15vw;
-    background-color: rgba(250, 220, 217, 50%);
-    backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
   }
   .menu_icon {
     width: 100%;
@@ -191,6 +199,16 @@
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
   }
+  
+  h2 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.8em;
+    padding: 3% 0 0 0;
+    -webkit-text-stroke: 1px black;
+  }
+
   button {
     width: 55%;
     height: 8%;
@@ -210,11 +228,11 @@
     height: 85%;
     margin: 4% 0 0 15%;
   }
+  .homeBtnDiv {
+    display: none;
+  }
   .header_cadastro {
     width: 99.69vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
@@ -241,12 +259,23 @@
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
   }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .menu_icon {
     width: 100%;
     height: 100%;
   }
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
   main {
     width: 95vw;
@@ -263,6 +292,14 @@
     font-family: "Piedra", serif;
     color: white;
     font-size: 5em;
+    padding: 3% 0 0 0;
+    -webkit-text-stroke: 1px black;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.8em;
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
   }
@@ -285,11 +322,11 @@
     height: 85%;
     margin: 4% 0 0 15%;
   }
+  .homeBtnDiv {
+    display: none;
+  }
   .header_cadastro {
     width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
@@ -313,8 +350,19 @@
   .mobile_menu {
     display: none;
   }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
     .login_img {
       width: 100%;
@@ -338,6 +386,14 @@
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
   }
+  h2 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.8em;
+    padding: 3% 0 0 0;
+    -webkit-text-stroke: 1px black;
+  }
   button {
     width: 35%;
     height: 8%;
@@ -356,6 +412,9 @@
     width: 100%;
     height: 85%;
     margin: 4% 0 0 15%;
+  }
+  .homeBtnDiv {
+    display: none;
   }
   .header_cadastro {
     width: auto;
@@ -385,8 +444,19 @@
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
   }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
     .login_img {
       width: 100%;
@@ -407,6 +477,14 @@
     font-family: "Piedra", serif;
     color: white;
     font-size: 5em;
+    padding: 3% 0 0 0;
+    -webkit-text-stroke: 1px black;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Piedra", serif;
+    color: white;
+    font-size: 2.8em;
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
   }

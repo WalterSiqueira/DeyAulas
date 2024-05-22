@@ -12,7 +12,7 @@ menubtn.addEventListener("click", function() {
         status = 'aberto';
     } else if (status === 'aberto') {
         mobile_menu.style.display = 'none';
-        conteudo_main.style.display = 'flex';
+        conteudo_main.style.display = '';
         conteudo_mainbtn.style.display = '';
         status = 'fechado';
     }

@@ -10,20 +10,28 @@
     <link href="../../Public/Login/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header_login">
-      <div class="div_logo">
-        <a class="link_catalogo" href="../Home/index.html"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
+    <header class="header_cadastro">
+      <div class="homeBtnDiv ">
+        <a class="link_logo" href="./index.php"><h2>Home</h2></a>
       </div>
       <nav>
         <div class="mobile_icones">
-          <img onclick='abrir_menu()' class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
+          <img id="menubtn" class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
+          <div id="mobile_menu" class="mobile_menu">
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
+          </div>
         </div>
-        <div id="menu" class="desktop_icones">
-          <a class="link_cadastro" href="../Cadastro/index.php" ><img class="cadastro_img" src="../../Public/Img/icone_cadastro.png"></a>
-          <img onclick='fechar_menu()' id="fechar" class="fechar_img" src="../../Public/Img/icone_fechar.png"/>
+        <div class="desktop_icones">
+            <a class="link_logo" href="./index.php"><h2>Home</h2></a>
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
         </div>
+      </nav>
     </header>
-    <main>
+    <main id="main_content">
       <div class="div_form" id="div_form">
         <h2>Login</h2>
         <form action="../../Controllers/teste_login.php" method="POST">

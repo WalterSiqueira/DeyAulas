@@ -11,20 +11,23 @@
   </head>
   <body>
     <header class="header_cadastro">
-      <div class="div_logo">
-        <a class="link_logo" href="./index.php"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
+      <div class="homeBtnDiv ">
+        <a class="link_logo" href="./index.php"><h2>Home</h2></a>
       </div>
       <nav>
         <div class="mobile_icones">
           <img id="menubtn" class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
           <div id="mobile_menu" class="mobile_menu">
-            <img class="opcao" src="../../Public/Img/icone_catalogo.png" alt="">
-            <img class="opcao" src="../../Public/Img/icone_login.png" alt="">
-            <img class="opcao" src="../../Public/Img/icone_cadastro.png" alt="">
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
           </div>
         </div>
         <div class="desktop_icones">
-          <a class="link_login" href="../Login/"><img  class="login_img" src="../../Public/Img/icone_login.png"></a>
+            <a class="link_logo" href="./index.php"><h2>Home</h2></a>
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
         </div>
       </nav>
     </header>
