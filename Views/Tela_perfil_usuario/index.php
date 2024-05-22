@@ -43,33 +43,33 @@
         <button class="btn_user trocar" id="btn_trocar_conta">Trocar de conta</button>
         <button class="btn_user excluir" id="btn_excluir_conta">Excluir conta</button>
       </div>
-      <form class="form_escondida" id="atualizarSenha">
+      <form class="senha" id="atualizarSenha">
         <h2>Atualize sua senha</h2>
         <h3>Insira sua senha atual e sua nova senha</h3>
         <label>Senha atual:</label>
-        <input type="password">
+        <input class="input_form_escondido" type="password">
         <label>Nova senha:</label>
-        <input type="password">
+        <input class="input_form_escondido" type="password">
         <label>Confirmar nova senha:</label>
-        <input type="password">
+        <input class="input_form_escondido" type="password">
         <button>Pronto</button>
-        <button>Cancelar</button>
+        <button id="btn_cancelar_senha">Cancelar</button>
       </form>
-      <form class="form_escondida" id="atualizarEmail">
+      <form class="email" id="atualizarEmail">
         <h2>Atualize seu e-mail</h2>
         <label>Novo e-mail:</label>
-        <input type="text">
+        <input class="input_form_escondido" type="text">
         <label>Informe sua senha:</label>
-        <input type="password">
+        <input class="input_form_escondido" type="password">
         <button>Pronto</button>
-        <button>Cancelar</button>
+        <button id="btn_cancelar_troca">Cancelar</button>
       </form>
-      <form class="form_escondida" id="excluirConta">
+      <form class="conta" id="excluirConta">
         <h2>Tem certeza que quer excluir sua conta?</h2>
         <button>Sim</button>
-        <button>Não</button>
+        <button id="btn_cancelar_excluir">Não</button>
       </form>
     </main> 
   </body>
-<script src="../../Public/Login/index.js"></script>
+<script src="../../Public/Tela_perfil_usuario/mostra_form.js"></script>
 </html>

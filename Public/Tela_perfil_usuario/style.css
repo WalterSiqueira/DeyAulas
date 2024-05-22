@@ -66,10 +66,29 @@
     margin: 0 0 0 36%;
   }
   form {
-    grid-area: form;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
     display: flex;
     flex-flow: column nowrap;
     grid-gap: 5%;
+    background-color: rgb(187, 234, 243, 99%);
+    border: solid black 2px;
+  }
+  .input_form_escondido {
+    height: 8%;
+    font-size: 1.6em;
+  }
+  .senha {
+    display: none;
+  }
+  .email {
+    display: flex;
+  }
+  .conta {
+    display: none;
   }
   h2 {
     text-align: center;
@@ -109,7 +128,7 @@
   button {
     width: 65%;
     height: 5%;
-    margin: 3% 0 3% 23%;
+    margin: 3% 0 3% 20%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
@@ -194,10 +213,29 @@
     margin: 0 0 0 36%;
   }
   form {
-    grid-area: form;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
     display: flex;
     flex-flow: column nowrap;
     grid-gap: 5%;
+    background-color: rgb(187, 234, 243, 99%);
+    border: solid black 2px;
+  }
+  .input_form_escondido {
+    height: 8%;
+    font-size: 1.6em;
+  }
+  .senha {
+    display: none;
+  }
+  .email {
+    display: flex;
+  }
+  .conta {
+    display: none;
   }
   h2 {
     text-align: center;
@@ -236,8 +274,8 @@
   }
   button {
     width: 65%;
-    height: 5%;
-    margin: 3% 0 3% 23%;
+    height: 8%;
+    margin: 3% 0 3% 20%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
@@ -333,10 +371,29 @@
     margin: 0 0 0 5%;
   }
   form {
-    grid-area: form;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
     display: flex;
     flex-flow: column nowrap;
     grid-gap: 5%;
+    background-color: rgb(187, 234, 243, 99%);
+    border: solid black 2px;
+  }
+  .input_form_escondido {
+    height: 8%;
+    font-size: 1.6em;
+  }
+  .senha {
+    display: none;
+  }
+  .email {
+    display: flex;
+  }
+  .conta {
+    display: none;
   }
   h2 {
     text-align: center;
@@ -375,8 +432,8 @@
   }
   button {
     width: 65%;
-    height: 5%;
-    margin: 3% 0 3% 23%;
+    height: 8%;
+    margin: 3% 0 3% 20%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
@@ -479,10 +536,29 @@
     margin: 0 0 0 5%;
   }
   form {
-    grid-area: form;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
     display: flex;
     flex-flow: column nowrap;
     grid-gap: 5%;
+    background-color: rgb(187, 234, 243, 99%);
+    border: solid black 2px;
+  }
+  .input_form_escondido {
+    height: 8%;
+    font-size: 1.6em;
+  }
+  .senha {
+    display: none;
+  }
+  .email {
+    display: flex;
+  }
+  .conta {
+    display: none;
   }
   h2 {
     text-align: center;
@@ -521,8 +597,8 @@
   }
   button {
     width: 65%;
-    height: 5%;
-    margin: 3% 0 3% 23%;
+    height: 8%;
+    margin: 3% 0 3% 20%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
@@ -625,10 +701,29 @@
     margin: 0 0 0 5%;
   }
   form {
-    grid-area: form;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
     display: flex;
     flex-flow: column nowrap;
     grid-gap: 5%;
+    background-color: rgb(187, 234, 243, 99%);
+    border: solid black 2px;
+  }
+  .input_form_escondido {
+    height: 5%;
+    font-size: 1.6em;
+  }
+  .senha {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .conta {
+    display: none;
   }
   h2 {
     text-align: center;
@@ -639,7 +734,7 @@
     -webkit-text-stroke: 1px black;
   }
   h3 {
-    text-align: left;
+    text-align: center;
     font-family: "Piedra", serif;
     color: white;
     font-size: 2em;
@@ -667,8 +762,8 @@
   }
   button {
     width: 65%;
-    height: 5%;
-    margin: 3% 0 3% 23%;
+    height: 8%;
+    margin: 1% 0 1% 20%;
     border-radius: 10vh;
     background-color: rgba(255, 179, 123, 100%);
     color: white;
