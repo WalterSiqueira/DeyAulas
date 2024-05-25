@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  overflow-x: hidden;
+}
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .div_logo {
     width: 13%;
@@ -85,7 +89,7 @@
     display: none;
   }
   .email {
-    display: flex;
+    display: none;
   }
   .conta {
     display: none;
@@ -194,7 +198,7 @@
   }
   main {
     width: 95vw;
-    height: 100vh;
+    height: 120vh;
     padding: 5% 0 0 5%;
     background-image: url("../Img/fundo.png");
     background-repeat: repeat-y;
@@ -205,6 +209,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    row-gap: 3%;
   }
   .user_pic {
     width: 25%;
@@ -232,7 +237,7 @@
     display: none;
   }
   .email {
-    display: flex;
+    display: none;
   }
   .conta {
     display: none;
@@ -390,7 +395,7 @@
     display: none;
   }
   .email {
-    display: flex;
+    display: none;
   }
   .conta {
     display: none;
@@ -555,7 +560,7 @@
     display: none;
   }
   .email {
-    display: flex;
+    display: none;
   }
   .conta {
     display: none;

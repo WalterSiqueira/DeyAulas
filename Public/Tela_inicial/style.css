@@ -8,7 +8,7 @@
   .homeBtnDiv {
     width: 13%;
     height: 87%;
-    margin: 5% 5% 0 5%;
+    margin: 0 5% 0 5%;
   }
   .catalogo_img {
     width: 100%;
@@ -39,7 +39,7 @@
     display: block;
     width: 65%;
     height: 70%;
-    margin: 15% 0 0 20%;
+    margin: 10% 0 0 20%;
   }
   .opcao {
     width: 35%;
@@ -114,7 +114,7 @@
   .homeBtnDiv {
     width: 5%;
     height: 70%;
-    margin: 1% 0 0 2%;
+    margin: 0 0 0 2%;
   }
   .catalogo_img {
     width: 100%;

@@ -11,20 +11,28 @@
   </head>
   <body>
     <header class="header_cadastro">
-      <div class="div_logo">
-        <a class="link_logo" href="../Home/index.php"><img class="catalogo_img" src="../../Public/Img/icone_catalogo.png"></a>
+      <div class="homeBtnDiv ">
+        <a class="link_logo" href="../Home/index.php"><h2>Home</h2></a>
       </div>
       <nav>
         <div class="mobile_icones">
-          <img class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
+          <img id="menubtn" class="menu_img" src="../../Public/Img/icone_menu_mobile.png">
+          <div id="mobile_menu" class="mobile_menu">
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
+          </div>
         </div>
         <div class="desktop_icones">
-          <a class="link_login" href="../Login"><img  class="login_img" src="../../Public/Img/icone_login.png"></a>
+            <a class="link_logo" href="../Home/index.php"><h2>Home</h2></a>
+            <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
+            <a class="link_logo" href="../Login/"><h2>Login</h2></a>
+            <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
         </div>
       </nav>
     </header>
     <main>
-      <div class="div_form">
+      <div id="div_form" class="div_form">
         <h2>Cadastro</h2>
         <form action="../../Controllers/Cadastro_funcao.php" method="post">
           <label>Nome:</label>
@@ -38,4 +46,5 @@
       </div>
     </main> 
   </body>
+<script src="../../Public/Login/index.js"></script>
 </html>

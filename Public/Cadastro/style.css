@@ -3,10 +3,10 @@
   padding: 0;
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
-  .div_logo {
+  .homeBtnDiv {
     width: 13%;
     height: 87%;
-    margin: 2% 5% 0 0;
+    margin: 0 5% 0 5%;
   }
   .catalogo_img {
     width: 100%;
@@ -21,7 +21,7 @@
     justify-content: space-between;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); /* Corrigido de backgrop para backdrop */
     border: solid black 2px;
   }
   img {
@@ -29,14 +29,36 @@
     width: 100%;
   }
   a {
-    height: 10vh;
+    text-decoration: none;
+    color: black;
   }
 
   .mobile_icones {
     display: block;
-    width: 60%;
-    height: 75%;
-    margin: 12% 0 0 35%;
+    width: 65%;
+    height: 70%;
+    margin: 10% 0 0 20%;
+  }
+  .opcao {
+    width: 35%;
+    height: 25%;
+  }
+  .mobile_menu {
+    width: 90vw;
+    height: 60vh;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 25vh;
+    left: 5vw;
+    background-color: rgba(187, 234, 243, 50%);
+    border-radius: 2vh;
+    border: solid 1px black;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); /* Corrigido de backgrop para backdrop */
+    row-gap: 5%;
   }
   .menu_icon {
     width: 100%;
@@ -117,36 +139,62 @@
 
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  .div_logo {
-    width: 8%;
-    height: 70%;
-    margin: 1% 0 0 2%;
+  .homeBtnDiv {
+    width: 13%;
+    height: 87%;
+    margin: 0 5% 0 3%;
   }
   .catalogo_img {
     width: 100%;
-    height: 100%;
+    height: 85%;
+    padding: 5% 0 0 5%;
   }
   .header_cadastro {
-    width: 99.4vw;
+    width: 100%;
     height: 10vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
-    -webkit-backgrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); /* Corrigido de backgrop para backdrop */
     border: solid black 2px;
   }
   img {
-    width: 100%;
     height: 100%;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
 
   .mobile_icones {
     display: block;
-    width: 80%;
+    width: 65%;
     height: 70%;
-    margin: 15% 0 0 0; 
+    margin: 10% 0 0 20%;
+  }
+  .opcao {
+    width: 35%;
+    height: 25%;
+  }
+  .mobile_menu {
+    width: 90vw;
+    height: 60vh;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 25vh;
+    left: 5vw;
+    background-color: rgba(187, 234, 243, 50%);
+    border-radius: 2vh;
+    border: solid 1px black;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); /* Corrigido de backgrop para backdrop */
+    row-gap: 5%;
   }
   .menu_icon {
     width: 100%;
@@ -231,11 +279,11 @@
     height: 85%;
     margin: 4% 0 0 15%;
   }
+  .homeBtnDiv {
+    display: none;
+  }
   .header_cadastro {
     width: 99.69vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
@@ -253,12 +301,32 @@
     height: 85%;
     margin: 15% 0 0 15%;
   }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .menu_icon {
     width: 100%;
     height: 100%;
   }
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
   main {
     width: 100vw;
@@ -339,11 +407,11 @@
     height: 85%;
     margin: 4% 0 0 15%;
   }
+  .homeBtnDiv {
+    display: none;
+  }
   .header_cadastro {
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    width: 99.69vw;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
@@ -354,12 +422,39 @@
     width: 100%;
     height: 100%;
   }
-
+  
   .mobile_icones {
     display: none;
+    width: 100%;
+    height: 85%;
+    margin: 15% 0 0 15%;
+  }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu_icon {
+    width: 100%;
+    height: 100%;
   }
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
     .login_img {
       width: 100%;
@@ -445,11 +540,11 @@
     height: 85%;
     margin: 4% 0 0 15%;
   }
+  .homeBtnDiv {
+    display: none;
+  }
   .header_cadastro {
-    width: 98.9vw;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    width: auto;
     background-color: rgba(250, 220, 217, 50%);
     backdrop-filter: blur(16px);
     -webkit-backgrop-filter: blur(16px);
@@ -464,8 +559,28 @@
   .mobile_icones {
     display: none;
   }
+  .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 25vh;
+    left: 15vw;
+    background-color: rgba(250, 220, 217, 50%);
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .desktop_icones {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
   }
     .login_img {
       width: 100%;

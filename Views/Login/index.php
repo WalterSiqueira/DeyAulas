@@ -12,7 +12,7 @@
   <body>
     <header class="header_cadastro">
       <div class="homeBtnDiv ">
-        <a class="link_logo" href="./index.php"><h2>Home</h2></a>
+        <a class="link_logo" href="../Home/index.php"><h2>Home</h2></a>
       </div>
       <nav>
         <div class="mobile_icones">
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="desktop_icones">
-            <a class="link_logo" href="./index.php"><h2>Home</h2></a>
+            <a class="link_logo" href="../Home/index.php"><h2>Home</h2></a>
             <a class="link_logo" href="../Cadastro/"><h2>Cadastro</h2></a>
             <a class="link_logo" href="../Login/"><h2>Login</h2></a>
             <a class="link_logo" href="../Catalogo/"><h2>Catálogo</h2></a>
