@@ -245,7 +245,7 @@
     text-align: center;
     font-family: "Piedra", serif;
     color: white;
-    font-size: 3em;
+    font-size: 2.8em;
     padding: 3% 0 0 0;
     -webkit-text-stroke: 1px black;
   }
@@ -382,7 +382,7 @@
     text-align: center;
     font-family: "Piedra", serif;
     color: white;
-    font-size: 4em;
+    font-size: 2.8em;
     padding: 5% 0 0 0;
     -webkit-text-stroke: 1px black;
   }
@@ -522,7 +522,7 @@
   }
   h2 {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2.8em;
     font-family: "Piedra", serif;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -604,6 +604,7 @@
   a {
     text-decoration: none;
     color: black;
+    
   }
 
   .desktop_icones {
@@ -655,7 +656,15 @@
   }
   h2 {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2.8em;
+    padding: 5% 0 0 0;
+    font-family: "Piedra", serif;
+    color:white;
+    -webkit-text-stroke: 1px black;
+  }
+  .h2 {
+    text-align: center;
+    font-size: 2.8em;
     padding: 5% 0 0 0;
     font-family: "Piedra", serif;
     color:white;
