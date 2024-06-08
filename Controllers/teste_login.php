@@ -9,20 +9,22 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        $consulta_sql = "SELECT * FROM usuarios WHERE email=$email AND senha=$senha";
+        $consulta_sql = "SELECT * FROM usuarios WHERE email='$email'";
 
         $resultado = $conn->query($consulta_sql);
 
-        if(mysqli_num_rows($resultado) < 1)
-        {
-            unset($_SESSION['email']);
-            unset($_SESSION['senha']);
-            header('Location: /deyaulas/Controllers/teste_login.php');
-        }
-        else 
+        $sql_assoc = $resultado->fetch_assoc();  
+
+        if(password_verify($senha, $sql_assoc['senha']))
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            header('Location: /deyaulas/Views/Home/index.php');
+            header('Location: /DeyAulas-master/Views/Home/index.php');
+        }
+        else 
+        {
+            unset($_SESSION['email']);
+            unset($_SESSION['senha']);
+            header('Location: /DeyAulas-master/Views/Login/index.php');
         }
     }

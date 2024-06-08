@@ -2,6 +2,21 @@
 
   session_start();
 
+  include_once('../../Models/conn.php');
+
+  if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
+    {
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        header('Location: ../Login/index.php');
+    }
+    
+    $email = $_SESSION['email'];
+
+    $sql = "SELECT * FROM usuarios ORDER BY id DESC";
+    
+    $result = $conn->query($sql);
+
 ?>
 
 
@@ -34,16 +49,41 @@
       <div class="div_usuario" id="div_usuario">
         <img class="user_pic" src="../../Public/Img/foto_usuario.png"/>
         <div class="user_info">
-          <h3>Nome de usuário</h3>
-          <input type="text">
-          <h3 class="mostra_inf">Email</h3>
-          <input type="text">
+          <table>
+            <thead>
+              <tr>
+                <th>Nome de usuário</th>
+                <br>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php 
+                while($user_data = mysqli_fetch_assoc($result))
+                {
+                  if($user_data['email'] == $email) {
+                    echo "<tr>";
+                    echo "<td>" . $user_data['nome'] . "</td>";
+                    echo "<td>" . $user_data['email'] . "</td>";
+                    echo "</tr>";
+                  }
+                  
+                }
+              ?>
+            </tbody>
+          </table>
         </div>
         <button class="btn_user alterar" id="btn_alterar_senha">Alterar senha</button>
         <button class="btn_user trocar" id="btn_trocar_conta">Trocar de conta</button>
         <button class="btn_user excluir" id="btn_excluir_conta">Excluir conta</button>
       </div>
-      <form class="senha" id="atualizarSenha">
+      <div>
+        <a href="../../Controllers/sair_da_conta.php">Excluir conta</a>
+      </div>
+      <div>
+        <a href="../../Controllers/sair_conta.php">Sair da conta</a>
+      </div>
+      <!-- <form class="senha" id="atualizarSenha">
         <h2>Atualize sua senha</h2>
         <h3>Insira sua senha atual e sua nova senha</h3>
         <label>Senha atual:</label>
@@ -68,7 +108,7 @@
         <h2>Tem certeza que quer excluir sua conta?</h2>
         <button>Sim</button>
         <button id="btn_cancelar_excluir">Não</button>
-      </form>
+      </form> -->
     </main> 
   </body>
 <script src="../../Public/Tela_perfil_usuario/mostra_form.js"></script>
