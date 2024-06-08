@@ -17,3 +17,7 @@ menubtn.addEventListener("click", function() {
         status = 'fechado';
     }
 });
+
+conteudo_mainbtn.addEventListener("click", function() {
+    window.location.href="../Cadastro";
+});
