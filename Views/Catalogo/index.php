@@ -46,6 +46,11 @@
             <h3>Jogo do Alfabeto</h2>
             <button id="quiz">Jogar</button>
           </div>
+          <div class="div_jogo_alfabeto">
+            <img class="jogo_alfabeto_img" src="../../Public/Img/Catalogo/forca_img.png" alt="advinhar a palavra em 3 tentativas">
+            <h3>Jogo da forca</h2>
+            <button id="forca">Jogar</button>
+          </div>
         </div>
       </div>
     </main> 

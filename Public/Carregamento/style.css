@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+  }
+
 /* Media query para tela de 320px a 500px */
 @media screen and (min-width: 320px) and (max-width: 500px) {
     img {

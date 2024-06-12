@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  overflow-x: hidden;
+}
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .homeBtnDiv {
     width: 13%;
@@ -532,6 +536,7 @@
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.8rem;
     border-radius: 5vh;
+    font-family: "Piedra", serif;
   } 
 }
 @media screen and (min-width:1441px) {
@@ -658,5 +663,6 @@
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.8rem;
     border-radius: 5vh;
+    font-family: "Piedra", serif;
   }
 }

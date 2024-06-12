@@ -19,12 +19,12 @@
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            header('Location: /DeyAulas-master/Views/Home/index.php');
+            header('Location: /deyaulas/Views/Home/index.php');
         }
         else 
         {
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
-            header('Location: /DeyAulas-master/Views/Login/index.php');
+            header('Location: /deyaulas/Views/Login/index.php');
         }
     }
