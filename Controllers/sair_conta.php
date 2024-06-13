@@ -4,7 +4,6 @@
 
     include_once('../Models/conn.php');
 
-    unset($_SESSION['email']);
-    unset($_SESSION['senha']);
+    session_destroy();
     header('Location: ../Views/Login/index.php');
 ?>

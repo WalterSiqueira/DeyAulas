@@ -1,14 +1,3 @@
-<?php
-    session_start();
-    $logado = isset($_SESSION['logado']) && $_SESSION['logado'] == true;
-    echo $logado;
-
-?>
-
-<script>
-    var estaLogado = <?php echo json_encode($logado); ?>
-</script>
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -20,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link href="../../Public/Tela_inicial/style.css" rel="stylesheet">
+    <?php include '../../Controllers/login_status.php'?>
   </head>
   <body>
     <header class="header_cadastro">

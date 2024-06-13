@@ -19,7 +19,7 @@
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            $_session['logado'] = true;
+            $_SESSION['logado'] = true;
             header('Location: /deyaulas/Views/Home/index.php');
         }
         else 

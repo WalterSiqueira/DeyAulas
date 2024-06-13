@@ -10,6 +10,8 @@
 
     $resultado = $conn->query($delete_sql);
 
+    session_destroy();
+
     header('Location: ../Views/Home/index.php');
 
 ?>

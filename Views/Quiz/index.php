@@ -7,6 +7,7 @@
     <link rel="icon" href="../../Public/Img/favicon.png" type="image/png">
     <title>Quiz - Acerte o nome!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../../Public/Img/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Oswald&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../Public/Quiz/style.css">
@@ -27,7 +28,6 @@
 	</div>
 	
 	<button id="voltarbtn" class="voltarbtn">Voltar</button>
-	<script type="text/javascript" src="../../Public/Quiz/script.js"></script>
 	<script src="../../Public/Alfabeto_jogo/voltar.js"></script>
 	
 </body>
