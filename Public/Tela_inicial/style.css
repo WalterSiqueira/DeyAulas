@@ -10,6 +10,9 @@
     height: 87%;
     margin: 0 5% 0 5%;
   }
+  .tela_usuario {
+    display: none;
+  }
   .catalogo_img {
     width: 100%;
     height: 85%;
@@ -115,6 +118,9 @@
     width: 5%;
     height: 70%;
     margin: 0 0 0 2%;
+  }
+  .tela_usuario {
+    display: none;
   }
   .catalogo_img {
     width: 100%;
@@ -231,6 +237,9 @@
   .homeBtnDiv {
     display: none;
   }
+  .tela_usuario {
+    display: none;
+  }
   .header_cadastro {
     width: 99.69vw;
     background-color: rgba(250, 220, 217, 50%);
@@ -325,6 +334,9 @@
   .homeBtnDiv {
     display: none;
   }
+  .tela_usuario {
+    display: none;
+  }
   .header_cadastro {
     width: auto;
     background-color: rgba(250, 220, 217, 50%);
@@ -412,6 +424,9 @@
     width: 100%;
     height: 85%;
     margin: 4% 0 0 15%;
+  }
+  .tela_usuario {
+    display: none;
   }
   .homeBtnDiv {
     display: none;
@@ -508,6 +523,9 @@
     margin: 4% 0 0 15%;
   }
   .homeBtnDiv {
+    display: none;
+  }
+  .tela_usuario {
     display: none;
   }
   .header_cadastro {

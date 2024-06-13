@@ -19,12 +19,14 @@
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
+            $_session['logado'] = true;
             header('Location: /deyaulas/Views/Home/index.php');
         }
         else 
         {
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
+            unset($_SESSION['logado']);
             header('Location: /deyaulas/Views/Login/index.php');
         }
     }
