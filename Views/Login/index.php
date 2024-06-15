@@ -51,17 +51,17 @@
   </body>
 <script src="../../Public/Login/index.js"></script>
 <script>
-  if (window.innerWidth <= 500 && estaLogado) {
+  if (window.innerWidth <= 800 && estaLogado) {
     let btnCadastroMobile = document.getElementById('btnCadastroMobile');
     let btnLoginMobile = document.getElementById('btnLoginMobile');
     let btnTelaUsuarioMobile = document.getElementById('btnTelaUsuarioMobile');
 
     btnCadastroMobile.style.display = "none";
     btnLoginMobile.style.display = "none";
-    btnTelaUsuarioMobile.display = "block";
+    btnTelaUsuarioMobile.style.display = "block";
     console.log("estou ativo logado e abaixo de 500px!");
 
-  } else  if (window.innerWidth > 500 && estaLogado){
+  } else  if (window.innerWidth > 800 && estaLogado){
     let btnCadastroDesktop = document.getElementById('btnCadastroDesktop');
     let btnLoginDesktop = document.getElementById('btnLoginDesktop');
     let btnTelaUsuarioDesktop = document.getElementById('btnTelaUsuarioDesktop');
@@ -71,7 +71,7 @@
     btnTelaUsuarioDesktop.style.display = "block";
     console.log("estou ativo logado e acima de 500px!");
 
-  } else  if (window.innerWidth <= 500 && !estaLogado){
+  } else  if (window.innerWidth <= 800 && !estaLogado){
     let btnCadastroMobile = document.getElementById('btnCadastroMobile');
     let btnLoginMobile = document.getElementById('btnLoginMobile');
     let btnTelaUsuarioMobile = document.getElementById('btnTelaUsuarioMobile');
@@ -81,7 +81,7 @@
     btnTelaUsuarioMobile.style.display = "none";
     console.log("estou ativo não logado e abaixo de 500px!");
 
-  } else  if (window.innerWidth > 500 && !estaLogado){
+  } else  if (window.innerWidth > 800 && !estaLogado){
     let btnCadastroDesktop = document.getElementById('btnCadastroDesktop');
     let btnLoginDesktop = document.getElementById('btnLoginDesktop');
     let btnTelaUsuarioDesktop = document.getElementById('btnTelaUsuarioDesktop');
