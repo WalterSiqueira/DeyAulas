@@ -49,7 +49,7 @@
 
         btnCadastroMobile.style.display = "none";
         btnLoginMobile.style.display = "none";
-        btnTelaUsuarioMobile.display = "block";
+        btnTelaUsuarioMobile.style.display = "block";
         console.log("estou ativo logado e abaixo de 500px!");
 
       } else  if (window.innerWidth > 500 && estaLogado){

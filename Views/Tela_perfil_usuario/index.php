@@ -122,9 +122,29 @@
       </form> -->
     </main> 
   </body>
+  <script>
+    let sair_conta = document.getElementById("btn_sair_conta");
+    let excluir_conta = document.getElementById("btn_excluir_conta");
+    let menubtn = document.getElementById("menubtn");
+    let mobile_menu = document.getElementById("mobile_menu");
+    var status = "fechado";
+
+    menubtn.addEventListener("click", function() {
+        if (status === 'fechado') {
+            mobile_menu.style.display = 'flex';
+            sair_conta.style.display = 'none';
+            excluir_conta.style.display = 'none';
+            status = 'aberto';
+        } else if (status === 'aberto') {
+            mobile_menu.style.display = 'none';
+            sair_conta.style.display = '';
+            excluir_conta.style.display = '';
+            status = 'fechado';
+        }
+    });
+
+  </script>
   <script >
-    const sair_conta = document.getElementById('btn_sair_conta');
-    const excluir_conta = document.getElementById('btn_excluir_conta');
     sair_conta.addEventListener("click", function() {
         window.location.href="../../Controllers/sair_conta.php"
     });
@@ -141,7 +161,7 @@
 
         btnCadastroMobile.style.display = "none";
         btnLoginMobile.style.display = "none";
-        btnTelaUsuarioMobile.display = "block";
+        btnTelaUsuarioMobile.style.display = "block";
         console.log("estou ativo logado e abaixo de 500px!");
 
       } else  if (window.innerWidth > 500 && estaLogado){

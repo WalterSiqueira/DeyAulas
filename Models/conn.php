@@ -1,7 +1,7 @@
 <?php
 $server = "127.0.0.1";
 $user = "root";
-$senha = "";
+$senha = "DSms8842BI";
 $banco = "controledeyaulas";
 
 $conn = new mysqli($server, $user, $senha, $banco);
