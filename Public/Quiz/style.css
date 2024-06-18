@@ -1,0 +1,150 @@
+
+body {
+    background-image: url("../Img/fundo_quiz.png");
+    font-family: Nunito;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+h3{
+    color: white;
+    font-size: 1.8em;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+#imagem {
+    width: 30%;
+    height: 40vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.alternativa {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #F28080;
+    border: solid #DD0000 2px;
+    border-radius: 1cap;
+    font-size: 1.4em;
+}
+
+.alternativa:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#pontos, #result {
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .voltarbtn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 2% 0 5% 5%;
+    width: 25%;
+    height: 8%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.6em;
+    font-family: "Piedra", serif;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .voltarbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5% 5%;
+    width: 20%;
+    height: 8%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 2em;
+    font-family: "Piedra", serif;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .voltarbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5% 5%;
+    width: 15%;
+    height: 8%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 2.2em;
+    font-family: "Piedra", serif;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .voltarbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5% 5%;
+    width: 10%;
+    height: 8%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 1.6em;
+    font-family: "Piedra", serif;
+  }
+}
+@media screen and (min-width: 1440px) {
+    .voltarbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5% 5%;
+    width: 13%;
+    height: 8%;
+    border-radius: 10vh;
+    background-color: rgba(255, 179, 123, 100%);
+    color: white;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    font-size: 2.8em;
+    font-family: "Piedra", serif;
+  }
+}
+
+
+
+
+
+
