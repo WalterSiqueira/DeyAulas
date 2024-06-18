@@ -46,11 +46,7 @@
           </div>
           <div class="div_jogo_alfabeto">
             <img class="jogo_alfabeto_img" src="../../Public/Img/Catalogo/jogo_quiz.png" alt="jogo quiz para adivinhar a imagem">
-<<<<<<< HEAD
-            <h3>Jogo do Alfabeto</h2>
-=======
             <h3>Quiz</h2>
->>>>>>> main
             <button id="quiz">Jogar</button>
           </div>
           <div class="div_jogo_alfabeto">
