@@ -4,13 +4,13 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .homeBtnDiv {
     width: 13%;
     height: 87%;
-    margin: 0 5% 0 5%;
+    margin: 5% 5% 0 2%;
   }
 
   .tela_usuario {
@@ -23,7 +23,7 @@ body {
     padding: 5% 0 0 5%;
   }
   .header_cadastro {
-    width: 98.75vw;
+    width: 98.9%;
     height: 10vh;
     display: flex;
     flex-flow: row wrap;
@@ -52,6 +52,12 @@ body {
     width: 35%;
     height: 25%;
   }
+
+  nav {
+    width: 20%;
+    height: 100%;
+  }
+
   .mobile_menu {
     width: 90vw;
     height: 60vh;
@@ -69,9 +75,10 @@ body {
     -webkit-backgrop-filter: blur(16px);
     row-gap: 5%;
   }
-  .menu_icon {
+  .menu_img {
     width: 100%;
-    height: 100%;
+    height: 90%;
+    margin: 20% 20% 0 0;
   }
   .desktop_icones {
     display: none;
@@ -182,24 +189,34 @@ body {
     font-size: 1.6em;
     font-family: "Piedra", serif;
   }
+  .btn_user:hover{
+    background-color: rgba(255, 179, 123, 100%);
+    color: white
+  }
+  #btn_excluir_conta:hover{
+    background-color: #fb1a09;
+    color: white;
+  }
 
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  .div_logo {
-    width: 8%;
-    height: 70%;
-    margin: 1% 0 0 2%;
+  .homeBtnDiv {
+    width: 13%;
+    height: 87%;
+    margin: 2% 5% 0 2%;
   }
+
   .tela_usuario {
     display: none;
   }
-  
+
   .catalogo_img {
     width: 100%;
-    height: 100%;
+    height: 85%;
+    padding: 5% 0 0 5%;
   }
-  .header_login {
-    width: 99.4vw;
+  .header_cadastro {
+    width: 100%;
     height: 10vh;
     display: flex;
     flex-flow: row wrap;
@@ -210,19 +227,51 @@ body {
     border: solid black 2px;
   }
   img {
-    width: 100%;
     height: 100%;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
 
   .mobile_icones {
     display: block;
-    width: 80%;
+    width: 65%;
     height: 70%;
-    margin: 15% 0 0 0; 
+    margin: 10% 0 0 20%;
   }
-  .menu_icon {
-    width: 100%;
+  .opcao {
+    width: 35%;
+    height: 25%;
+  }
+
+  nav {
+    width: 10%;
     height: 100%;
+  }
+
+  .mobile_menu {
+    width: 90vw;
+    height: 60vh;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 25vh;
+    left: 5vw;
+    background-color: rgba(187, 234, 243, 50%);
+    border-radius: 2vh;
+    border: solid 1px black;
+    backdrop-filter: blur(16px);
+    -webkit-backgrop-filter: blur(16px);
+    row-gap: 5%;
+  }
+  .menu_img {
+    width: 80%;
+    height: 80%;
+    margin: 25% 0 0 0;
   }
   .desktop_icones {
     display: none;
@@ -244,7 +293,7 @@ body {
   }
   .user_pic {
     width: 25%;
-    height: 13%;
+    height: 30%;
     border-radius: 30vh;
     margin: 0 0 0 36%;
   }
@@ -333,6 +382,14 @@ body {
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.6em;
     font-family: "Piedra", serif;
+  }
+  .btn_user:hover{
+    background-color: rgba(255, 179, 123, 100%);
+    color: white
+  }
+  #btn_excluir_conta:hover{
+    background-color: #fb1a09;
+    color: white;
   }
 
 }
@@ -496,6 +553,14 @@ body {
     font-size: 1.6em;
     font-family: "Piedra", serif;
   }
+  .btn_user:hover{
+    background-color: rgba(255, 179, 123, 100%);
+    color: white
+  }
+  #btn_excluir_conta:hover{
+    background-color: #fb1a09;
+    color: white;
+  }
   .alterar {
     grid-area: alterar;
   }
@@ -565,11 +630,11 @@ body {
     width: 100%;
     height: auto;
   }
-    .login_img {
-      width: 100%;
-      height: 85%;
-      margin: 4% 15% 0 0;
-    }
+  .login_img {
+    width: 100%;
+    height: 85%;
+    margin: 4% 15% 0 0;
+  }
   main {
     width: 100vw;
     height: 100vh;
@@ -687,6 +752,15 @@ body {
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.6em;
     font-family: "Piedra", serif;
+    cursor: pointer;
+  }
+  .btn_user:hover{
+    background-color: rgba(255, 179, 123, 100%);
+    color: white
+  }
+  #btn_excluir_conta:hover{
+    background-color: #fb1a09;
+    color: white;
   }
   .alterar {
     grid-area: alterar;
@@ -872,6 +946,14 @@ body {
     -webkit-backgrop-filter: blur(16px);
     font-size: 1.6em;
     font-family: "Piedra", serif;
+  }
+  .btn_user:hover{
+    background-color: rgba(255, 179, 123, 100%);
+    color: white
+  }
+  #btn_excluir_conta:hover{
+    background-color: #fb1a09;
+    color: white;
   }
   .alterar {
     grid-area: alterar;

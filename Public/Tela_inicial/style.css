@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+=======
+body {
+  overflow: hidden;
+}
+>>>>>>> main
 @media screen and (min-width: 320px) and (max-width: 500px) {
 /*o css da div logo controla o tamanho do botão catalogo!!*/
 
@@ -326,6 +332,13 @@
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+<<<<<<< HEAD
+=======
+  body {
+    overflow: none;
+  }
+
+>>>>>>> main
   .catalogo_img {
     width: 100%;
     height: 85%;
@@ -420,6 +433,13 @@
   }
 }
 @media screen and (min-width:1441px) and (max-width: 1499px) {
+<<<<<<< HEAD
+=======
+  body {
+    overflow-y: hidden;
+  }
+
+>>>>>>> main
   .catalogo_img {
     width: 100%;
     height: 85%;
@@ -486,6 +506,10 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> main
   }
   h1 {
     text-align: center;

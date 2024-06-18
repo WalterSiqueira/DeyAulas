@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+<?php 
+
+  session_start();
+
+  include_once("../../Models/conn.php");
+
+  if((!isset($_SESSION['email']) == true) && (!isset($_SESSION['senha']) == true)) 
+  {
+    unset($_SESSION['email']);
+    unset($_SESSION['senha']);
+    header('Location: ../Login/index.php');
+  }
+
+?> 
+
+>>>>>>> main
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

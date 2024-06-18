@@ -20,13 +20,21 @@
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             $_SESSION['logado'] = true;
+<<<<<<< HEAD
             header('Location: /deyaulas/Views/Home/index.php');
+=======
+            header('Location: ../Views/Home/index.php');
+>>>>>>> main
         }
         else 
         {
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
             unset($_SESSION['logado']);
+<<<<<<< HEAD
             header('Location: /deyaulas/Views/Login/index.php');
+=======
+            header('Location: ../Views/Login/index.php');
+>>>>>>> main
         }
     }
