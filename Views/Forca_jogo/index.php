@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php 
 
   session_start();
@@ -15,7 +13,6 @@
 
 ?>
 
->>>>>>> main
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

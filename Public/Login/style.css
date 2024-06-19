@@ -4,11 +4,7 @@
 }
 
 body {
-<<<<<<< HEAD
-  overflow-x: hidden;
-=======
   overflow: hidden;
->>>>>>> main
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .homeBtnDiv {

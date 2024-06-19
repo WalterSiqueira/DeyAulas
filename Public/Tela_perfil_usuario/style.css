@@ -570,6 +570,10 @@ body {
   .excluir {
     grid-area: excluir;
   }
+
+  td {
+    font-size: 1.8em;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .catalogo_img {
@@ -771,6 +775,10 @@ body {
   .excluir {
     grid-area: excluir;
   }
+
+  td {
+    font-size: 1.8em;
+  }
 }
 @media screen and (min-width:1441px) {
   .catalogo_img {
@@ -963,5 +971,13 @@ body {
   }
   .excluir {
     grid-area: excluir;
+  }
+
+  th {
+    font-size: 1.8em;
+  }
+
+  td {
+    font-size: 1.6em;
   }
 }

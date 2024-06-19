@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php 
 
   session_start();
@@ -15,7 +13,6 @@
 
 ?>
 
->>>>>>> main
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,6 +44,7 @@
 	
 	<button id="voltarbtn" class="voltarbtn">Voltar</button>
 	<script src="../../Public/Alfabeto_jogo/voltar.js"></script>
+	<script src="../../Public/Quiz/script.js"></script>
 	
 </body>
 </html>
