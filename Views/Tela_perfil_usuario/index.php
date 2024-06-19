@@ -69,9 +69,8 @@
           <table>
             <thead>
               <tr>
-                <th>Nome de usuário</th>
-                <br>
-                <th>Email</th>
+                <th>Nome de usuário:</th>
+                <th class="thEmail">Email:</th>
               </tr>
             </thead>
             <tbody>
@@ -81,7 +80,7 @@
                   if($user_data['email'] == $email) {
                     echo "<tr>";
                     echo "<td>" . $user_data['nome'] . "</td>";
-                    echo "<td>" . $user_data['email'] . "</td>";
+                    echo "<td class='tdEmail'>" . $user_data['email'] . "</td>";
                     echo "</tr>";
                   }
                   
