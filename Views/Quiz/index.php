@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="../../Public/Img/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Oswald&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../Public/Quiz/style.css">
 </head>
 <body>

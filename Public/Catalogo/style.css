@@ -156,6 +156,18 @@
       font-size: 1.2rem;
       font-family: "Piedra", serif;
     }
+    button :hover {
+      width: 55%;
+      height: 15%;
+      margin: 3% 0 3% 23%;
+      border-radius: 10vh;
+      background-color: white;
+      color: black;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 1.2rem;
+      font-family: "Piedra", serif;
+  }
   
   }
   @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -308,6 +320,18 @@
       font-size: 1.2rem;
       font-family: "Piedra", serif;
     }
+    button :hover {
+      width: 55%;
+      height: 25%;
+      margin: 0 0 3% 23%;
+      border-radius: 10vh;
+      background-color: white;
+      color: black;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 1.2rem;
+      font-family: "Piedra", serif;
+  }
   
   }
   @media screen and (min-width: 800px) and (max-width: 1024px) {
@@ -453,6 +477,18 @@
       border-radius: 10vh;
       background-color: rgba(255, 179, 123, 100%);
       color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 2rem;
+      font-family: "Piedra", serif;
+    }
+    button:hover {
+      width: 55%;
+      height: 12%;
+      margin: 5% 0 3% 23%;
+      border-radius: 10vh;
+      background-color: white;
+      color: rgba(255, 179, 123, 100%);;
       backdrop-filter: blur(16px);
       -webkit-backgrop-filter: blur(16px);
       font-size: 2rem;
@@ -612,6 +648,19 @@
       font-size: 2rem;
       font-family: "Piedra", serif;
     } 
+
+    button:hover {
+      width: 55%;
+      height: 12%;
+      margin: 5% 0 3% 23%;
+      border-radius: 10vh;
+      background-color: white;
+      color: rgba(255, 179, 123, 100%);
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 2rem;
+      font-family: "Piedra", serif;
+    } 
   }
   @media screen and (min-width:1441px) {
     .catalogo_img {
@@ -754,6 +803,19 @@
       border-radius: 10vh;
       background-color: rgba(255, 179, 123, 100%);
       color: white;
+      backdrop-filter: blur(16px);
+      -webkit-backgrop-filter: blur(16px);
+      font-size: 2rem;
+      font-family: "Piedra", serif;
+    }
+
+    button:hover {
+      width: 55%;
+      height: 12%;
+      margin: 5% 0 3% 23%;
+      border-radius: 10vh;
+      background-color: white;
+      color: rgba(255, 179, 123, 100%);
       backdrop-filter: blur(16px);
       -webkit-backgrop-filter: blur(16px);
       font-size: 2rem;

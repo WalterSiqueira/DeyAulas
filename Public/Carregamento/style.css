@@ -88,7 +88,7 @@ body {
     main {
         width: 100vw;
         height: 100vh;
-        background-image: url("../Img/fundo_carregamento.jpeg");
+        background-image: url("../Img/fundo_carregamento.png");
         background-size: 200%;
         background-repeat: no-repeat;
         display: flex;
@@ -160,7 +160,7 @@ body {
         width: 100vw;
         height: 100vh;
         padding: 5% 0 0 0;
-        background-image: url("../Img/fundo_carregamento.jpeg");
+        background-image: url("../Img/fundo_carregamento.png");
         background-size: 150%;
         background-repeat: no-repeat;
         display: flex;
@@ -229,8 +229,8 @@ body {
         width: 100vw;
         height: 100vh;
         padding: 5% 0 0 0;
-        background-image: url("../Img/fundo_carregamento.jpeg");
-        background-size: 150%;
+        background-image: url("../Img/fundo_carregamento.png");
+        background-size: 100%;
         background-repeat: no-repeat;
         display: flex;
         flex-flow: column nowrap;
@@ -268,10 +268,10 @@ body {
 
     h1 {
         color: white;
-        font-size: 3em;
+        font-size: 7em;
         font-family: "Piedra";
         padding: 3% 0 0 0;
-        -webkit-text-stroke: .05px black;
+        -webkit-text-stroke: 0.5px black;
     }
     h2 {
         color: white;
@@ -285,6 +285,7 @@ body {
         font-family: "Piedra";
         color: white;
         margin-bottom: 5%;
+        -webkit-text-stroke: 0.5px black;
     }
 }
 @media screen and (min-width: 1441px)  {
@@ -297,7 +298,7 @@ body {
     main {
         width: 100vw;
         height: 100vh;
-        background-image: url("../Img/fundo_carregamento.jpeg");
+        background-image: url("../Img/fundo_carregamento.png");
         background-size: 140%;
         background-repeat: no-repeat;
         display: flex;

@@ -82,6 +82,7 @@ body{
     margin-top: 30px;
     color: white;
     font-size: 2em;
+    -webkit-text-stroke: 1px black;
 }
 
 .voltarbtn {
@@ -184,15 +185,14 @@ body{
         position: fixed;
         top: 0;
         left: 0;
-        margin: 5% 0 0 5%;
-        width: 30%;
-        height: 5%;
+        width: 20%;
+        height: 8%;
         border-radius: 10vh;
         background-color: rgba(255, 179, 123, 100%);
         color: white;
         backdrop-filter: blur(16px);
         -webkit-backgrop-filter: blur(16px);
-        font-size: 1.8em;
+        font-size: 2em;
         font-family: "Piedra", serif;
       }
 
@@ -220,9 +220,8 @@ body{
         position: fixed;
         top: 0;
         left: 0;
-        margin: 5% 0 0 5%;
         width: 15%;
-        height: 5%;
+        height: 10%;
         border-radius: 10vh;
         background-color: rgba(255, 179, 123, 100%);
         color: white;

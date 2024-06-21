@@ -19,5 +19,5 @@ menubtn.addEventListener("click", function() {
 });
 
 conteudo_mainbtn.addEventListener("click", function() {
-    window.location.href="../Cadastro";
+    window.location.href="../Catalogo";
 });
