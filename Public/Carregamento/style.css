@@ -338,10 +338,10 @@ body {
 
     h1 {
         color: white;
-        font-size: 3em;
+        font-size: 7em;
         font-family: "Piedra";
         padding: 3% 0 0 0;
-        -webkit-text-stroke: 0.5px black;
+        -webkit-text-stroke: 0.3px black;
     }
     h2 {
         color: white;

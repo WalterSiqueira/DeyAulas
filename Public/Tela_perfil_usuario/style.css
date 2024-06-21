@@ -1159,7 +1159,7 @@ body {
   .btn_user{
     border: 1px solid orange;
     width: 80%;
-    height: 18%;
+    height: 25%;
     margin: 3% 0 3% 10%;
     border-radius: 10vh;
     background-color: white;
@@ -1206,7 +1206,7 @@ body {
   }
 
   th {
-    font-size: 2.4em;
+    font-size: 4em;
     text-align: left;
     color: white;
     -webkit-text-stroke: 1px black;
@@ -1225,14 +1225,15 @@ body {
   td {
     width: 30vw;
     height: 5vh;
-    font-size: 2.4em;
+    font-size: 2em;
     text-align: center;
     background-color: #BBEAF3;
     border: solid white 1px;
     border-radius: 10vw;
+    margin: 5% 0 0 0;
   }
 
   .tdEmail {
-    margin: 23% 0 0 0;
+    margin: 18% 0 0 0;
   }
 }

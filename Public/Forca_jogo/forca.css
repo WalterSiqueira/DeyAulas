@@ -83,6 +83,9 @@ body{
     color: white;
     font-size: 2em;
     -webkit-text-stroke: 1px black;
+    box-shadow: 0px 2px 8px dimgrey;
+    border-radius: 5px;
+    border: 1px solid dimgray;
 }
 
 .voltarbtn {
