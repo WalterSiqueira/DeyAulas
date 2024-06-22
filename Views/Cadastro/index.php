@@ -51,6 +51,7 @@
     </main> 
   </body>
 <script src="../../Public/Login/index.js"></script>
+<script src="../../Public/Cadastro/alerta.js"></script>
 
 <script>
       if (window.innerWidth <= 800 && estaLogado) {

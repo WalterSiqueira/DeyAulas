@@ -50,6 +50,7 @@
     </main> 
   </body>
 <script src="../../Public/Login/index.js"></script>
+<script src="../../Public/Login/alerta.js"></script>
 <script>
   if (window.innerWidth <= 800 && estaLogado) {
     let btnCadastroMobile = document.getElementById('btnCadastroMobile');

@@ -14,12 +14,12 @@
     if(mysqli_num_rows($resultado_consulta) > 0) {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: ../Views/Cadastro/index.php');
+        header('Location: ../Views/Cadastro/index.php?email_existente=1');
     }
     else
     {
         $resultado_insert = mysqli_query($conn, "INSERT INTO usuarios(nome, email, senha) VALUES('$nome', '$email', '$senha')");
-        header("Location: ../Views/Login/index.php");
+        header("Location: ../Views/Login/index.php?sucesso");
     }
   
  
