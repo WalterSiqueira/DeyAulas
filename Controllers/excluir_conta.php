@@ -12,6 +12,6 @@
 
     session_destroy();
 
-    header('Location: ../Views/Home/index.php');
+    header('Location: ../Views/Home/index.php?excluir');
 
 ?>

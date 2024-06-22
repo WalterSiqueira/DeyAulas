@@ -5,5 +5,5 @@
     include_once('../Models/conn.php');
 
     session_destroy();
-    header('Location: ../Views/Login/index.php');
+    header('Location: ../Views/Login/index.php?sair');
 ?>

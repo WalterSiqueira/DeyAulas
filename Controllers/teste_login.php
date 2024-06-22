@@ -21,7 +21,7 @@
             $_SESSION['senha'] = $senha;
             $_SESSION['logado'] = true;
 
-            header('Location: ../Views/Home/index.php');
+            header('Location: ../Views/Home/index.php?logado');
 
         }
         else 
@@ -29,6 +29,6 @@
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
             unset($_SESSION['logado']);
-            header('Location: ../Views/Login/index.php');
+            header('Location: ../Views/Login/index.php?falha');
         }
     }

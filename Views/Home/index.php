@@ -40,6 +40,7 @@
         <button id="main_contentbtn">Começar</button>
     </main> 
     <script src="../../Public/Tela_inicial/menu.js"></script>
+    <script src="../../Public/Tela_inicial/alerta.js"></script>
 
     <script>
       if (window.innerWidth <= 800 && estaLogado) {
